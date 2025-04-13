@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user095",
+        "cnpjNumber": 64402231302944,
+        "urlComplementaryList": "https://empresa7.com/mobile-banking"
+      },
+      "type": "EMPRESTIMO_CREDITO_PESSOAL_SEM_CONSIGNACAO",
+      "fees": {
+        "services": [
+          {
+            "name": "Taxa de Abertura",
+            "code": "NA",
+            "chargingTriggerInfo": "3% do valor do contrato",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "1337.91",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.185659"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "1651.85",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.240574"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "4721.85",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.137425"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "4133.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.127177"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1151.59",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "11564.04",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interestRates": [
+        {
+          "referentialRateIndexer": "POS_FIXADO",
+          "rate": "0.161104",
+          "applications": [
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.167570"
+              },
+              "customers": {
+                "rate": "0.103152"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.064833"
+              },
+              "customers": {
+                "rate": "0.234251"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.084002"
+              },
+              "customers": {
+                "rate": "0.089384"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.132895"
+              },
+              "customers": {
+                "rate": "0.109826"
+              }
+            }
+          ],
+          "minimumRate": "0.048044",
+          "maximumRate": "0.425272"
+        }
+      ],
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": "https://empresa7.com/personal_loans"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

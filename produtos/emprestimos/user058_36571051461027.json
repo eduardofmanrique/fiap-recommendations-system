@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user058",
+        "cnpjNumber": 36571051461027,
+        "urlComplementaryList": "https://empresa9.com/mobile-banking"
+      },
+      "type": "EMPRESTIMO_CREDITO_PESSOAL_OUTROS",
+      "fees": {
+        "services": [
+          {
+            "name": "Taxa de Abertura",
+            "code": "NA",
+            "chargingTriggerInfo": "3% do valor do contrato",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "3300.51",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.235914"
+                }
+              },
+              {
+                "interval": "4_FAIXA",
+                "value": "1482.55",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.126228"
+                }
+              },
+              {
+                "interval": "4_FAIXA",
+                "value": "3530.52",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.086721"
+                }
+              },
+              {
+                "interval": "4_FAIXA",
+                "value": "4846.56",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.153496"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1070.08",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "13138.87",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interestRates": [
+        {
+          "referentialRateIndexer": "SEM_INDEXADOR_TAXA",
+          "rate": "0.193360",
+          "applications": [
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.075491"
+              },
+              "customers": {
+                "rate": "0.165370"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.098951"
+              },
+              "customers": {
+                "rate": "0.109407"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.113025"
+              },
+              "customers": {
+                "rate": "0.121170"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.064062"
+              },
+              "customers": {
+                "rate": "0.126383"
+              }
+            }
+          ],
+          "minimumRate": "0.034764",
+          "maximumRate": "0.605947"
+        }
+      ],
+      "requiredWarranties": [
+        "BENS_ARRENDADOS"
+      ],
+      "termsConditions": "https://empresa9.com/personal_loans"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

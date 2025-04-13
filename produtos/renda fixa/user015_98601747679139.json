@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user015",
+        "cnpjNumber": 98601747679139,
+        "urlComplementaryList": "https://empresa8.com/companies"
+      },
+      "issuerInstitutionCnpjNumber": "11374838492803",
+      "issuerInstitutionName": "Organização A8",
+      "investmentType": "LCA",
+      "index": {
+        "indexer": "IGP_DI",
+        "indexerAdditionalInfo": "Informações adicionais",
+        "issueRemunerationRate": {
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.235376",
+              "operationRate": "0.265007"
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.022343",
+              "operationRate": "0.401592"
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.244564",
+              "operationRate": "0.325326"
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.017481",
+              "operationRate": "0.304401"
+            }
+          ],
+          "minimum": "0.017481",
+          "maximum": "0.244564"
+        }
+      },
+      "investmentConditions": {
+        "minimumAmount": "5028.04",
+        "redemptionTerm": "DIARIA",
+        "expirationPeriod": "1_360",
+        "gracePeriod": "1081+"
+      },
+      "targetAudience": "PESSOA_JURIDICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

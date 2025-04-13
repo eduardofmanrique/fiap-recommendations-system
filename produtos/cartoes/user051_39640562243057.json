@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user051",
+        "cnpjNumber": 39640562243057,
+        "urlComplementaryList": "https://empresa51.com/complementarylist"
+      },
+      "name": "Cartão Platinum Plus",
+      "identification": {
+        "product": {
+          "type": "INFINITE",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "BANDEIRA_PROPRIA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa51.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_NACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_NACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "2000.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.190"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1999.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "4478.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_POS_FIXADAS",
+            "rate": "0.93",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.38"
+                },
+                "customers": {
+                  "rate": "0.97"
+                }
+              }
+            ],
+            "minimumRate": "0.1313",
+            "maximumRate": "0.1815"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_POS_FIXADAS",
+            "rate": "0.66",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.158"
+                },
+                "customers": {
+                  "rate": "0.72"
+                }
+              }
+            ],
+            "minimumRate": "0.030",
+            "maximumRate": "0.51"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.19",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa51.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa51.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

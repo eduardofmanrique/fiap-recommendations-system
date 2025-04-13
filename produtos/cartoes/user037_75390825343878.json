@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user037",
+        "cnpjNumber": 75390825343878,
+        "urlComplementaryList": "https://empresa37.com/complementarylist"
+      },
+      "name": "Cartão Digital Free",
+      "identification": {
+        "product": {
+          "type": "PLATINUM",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "OUTRAS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa37.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_EXTERIOR",
+            "code": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_EXTERIOR",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "1234.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.114"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "642.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "8764.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_TLP",
+            "rate": "0.128",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.185"
+                },
+                "customers": {
+                  "rate": "0.61"
+                }
+              }
+            ],
+            "minimumRate": "0.1353",
+            "maximumRate": "0.1614"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_TLP",
+            "rate": "0.29",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.41"
+                },
+                "customers": {
+                  "rate": "0.59"
+                }
+              }
+            ],
+            "minimumRate": "0.048",
+            "maximumRate": "0.148"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.139",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa37.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa37.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

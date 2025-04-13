@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user023",
+        "cnpjNumber": 83933466446084,
+        "urlComplementaryList": "https://empresa23.com/complementarylist"
+      },
+      "name": "Cartão Digital Free",
+      "identification": {
+        "product": {
+          "type": "STANDARD_NACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "AMERICAN_EXPRESS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa23.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "307.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.14"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1820.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "5630.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDICES_PRECO",
+            "rate": "0.157",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.199"
+                },
+                "customers": {
+                  "rate": "0.42"
+                }
+              }
+            ],
+            "minimumRate": "0.1965",
+            "maximumRate": "0.1572"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDICES_PRECO",
+            "rate": "0.200",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.118"
+                },
+                "customers": {
+                  "rate": "0.14"
+                }
+              }
+            ],
+            "minimumRate": "0.061",
+            "maximumRate": "0.94"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.156",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa23.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa23.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user031",
+        "cnpjNumber": 90046271715344,
+        "urlComplementaryList": "https://empresa28.com/mobile-banking"
+      },
+      "type": "EMPRESTIMO_CREDITO_PESSOAL_COM_GARANTIA",
+      "fees": {
+        "services": [
+          {
+            "name": "Taxa de Abertura",
+            "code": "NA",
+            "chargingTriggerInfo": "3% do valor do contrato",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "1986.21",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.235718"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "3497.83",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.136009"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "2064.93",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.218127"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "3353.30",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.164848"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1135.11",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "7064.62",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interestRates": [
+        {
+          "referentialRateIndexer": "FLUTUANTE",
+          "rate": "0.068947",
+          "applications": [
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.178004"
+              },
+              "customers": {
+                "rate": "0.134426"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.123175"
+              },
+              "customers": {
+                "rate": "0.146059"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.071554"
+              },
+              "customers": {
+                "rate": "0.173381"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.087812"
+              },
+              "customers": {
+                "rate": "0.222546"
+              }
+            }
+          ],
+          "minimumRate": "0.013198",
+          "maximumRate": "0.379228"
+        }
+      ],
+      "requiredWarranties": [
+        "GARANTIAS_INTERNACIONAIS"
+      ],
+      "termsConditions": "https://empresa28.com/personal_loans"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

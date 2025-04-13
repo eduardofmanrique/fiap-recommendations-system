@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user033",
+        "cnpjNumber": 97943148931636,
+        "urlComplementaryList": "https://empresa33.com/complementarylist"
+      },
+      "name": "Cartão Digital Free",
+      "identification": {
+        "product": {
+          "type": "BLUE",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "ELO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa33.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+            "code": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "100.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.83"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1880.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "10496.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_SELIC",
+            "rate": "0.185",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.42"
+                },
+                "customers": {
+                  "rate": "0.107"
+                }
+              }
+            ],
+            "minimumRate": "0.1023",
+            "maximumRate": "0.33"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_SELIC",
+            "rate": "0.52",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.123"
+                },
+                "customers": {
+                  "rate": "0.145"
+                }
+              }
+            ],
+            "minimumRate": "0.054",
+            "maximumRate": "0.53"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.72",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa33.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa33.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

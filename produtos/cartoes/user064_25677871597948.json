@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user064",
+        "cnpjNumber": 25677871597948,
+        "urlComplementaryList": "https://empresa64.com/complementarylist"
+      },
+      "name": "Cartão Essencial",
+      "identification": {
+        "product": {
+          "type": "COMPRAS",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "AMERICAN_EXPRESS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa64.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "SMS",
+            "code": "SMS",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "1715.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.118"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1944.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "4855.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_POS_FIXADAS",
+            "rate": "0.175",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.64"
+                },
+                "customers": {
+                  "rate": "0.39"
+                }
+              }
+            ],
+            "minimumRate": "0.1707",
+            "maximumRate": "0.984"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_POS_FIXADAS",
+            "rate": "0.185",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.9"
+                },
+                "customers": {
+                  "rate": "0.127"
+                }
+              }
+            ],
+            "minimumRate": "0.08",
+            "maximumRate": "0.148"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.76",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa64.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa64.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

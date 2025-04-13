@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user040",
+        "cnpjNumber": 13432910972552,
+        "urlComplementaryList": "https://empresa19.com/mobile-banking"
+      },
+      "type": "EMPRESTIMO_CREDITO_PESSOAL_COM_GARANTIA",
+      "fees": {
+        "services": [
+          {
+            "name": "Taxa de Abertura",
+            "code": "NA",
+            "chargingTriggerInfo": "3% do valor do contrato",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "3514.17",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.062788"
+                }
+              },
+              {
+                "interval": "1_FAIXA",
+                "value": "4845.95",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.176952"
+                }
+              },
+              {
+                "interval": "1_FAIXA",
+                "value": "3795.49",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.194675"
+                }
+              },
+              {
+                "interval": "1_FAIXA",
+                "value": "1018.62",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.164472"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "691.49",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "15994.64",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interestRates": [
+        {
+          "referentialRateIndexer": "PRE_FIXADO",
+          "rate": "0.134422",
+          "applications": [
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.161073"
+              },
+              "customers": {
+                "rate": "0.093313"
+              }
+            },
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.132178"
+              },
+              "customers": {
+                "rate": "0.153912"
+              }
+            },
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.098501"
+              },
+              "customers": {
+                "rate": "0.144263"
+              }
+            },
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.050544"
+              },
+              "customers": {
+                "rate": "0.173632"
+              }
+            }
+          ],
+          "minimumRate": "0.036398",
+          "maximumRate": "0.534684"
+        }
+      ],
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": "https://empresa19.com/personal_loans"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

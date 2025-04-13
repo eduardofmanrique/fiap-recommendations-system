@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user079",
+        "cnpjNumber": 68071128574103,
+        "urlComplementaryList": "https://empresa79.com/complementarylist"
+      },
+      "name": "Cartão Gold Rewards",
+      "identification": {
+        "product": {
+          "type": "GOLD",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "HIPERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa79.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "code": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "137.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.1"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "524.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "6277.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.17",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.143"
+                },
+                "customers": {
+                  "rate": "0.102"
+                }
+              }
+            ],
+            "minimumRate": "0.1259",
+            "maximumRate": "0.1908"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.5",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.196"
+                },
+                "customers": {
+                  "rate": "0.116"
+                }
+              }
+            ],
+            "minimumRate": "0.0149",
+            "maximumRate": "0.185"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.183",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa79.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa79.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

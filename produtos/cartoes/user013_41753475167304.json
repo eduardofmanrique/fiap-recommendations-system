@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user013",
+        "cnpjNumber": 41753475167304,
+        "urlComplementaryList": "https://empresa13.com/complementarylist"
+      },
+      "name": "Cartão Cashback Turbo",
+      "identification": {
+        "product": {
+          "type": "STANDARD_NACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "VISA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa13.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "SMS",
+            "code": "SMS",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "1759.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.39"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1026.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "4124.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_TR_TBF",
+            "rate": "0.76",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.42"
+                },
+                "customers": {
+                  "rate": "0.74"
+                }
+              }
+            ],
+            "minimumRate": "0.1635",
+            "maximumRate": "0.1590"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_TR_TBF",
+            "rate": "0.107",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.114"
+                },
+                "customers": {
+                  "rate": "0.75"
+                }
+              }
+            ],
+            "minimumRate": "0.024",
+            "maximumRate": "0.119"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.45",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa13.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa13.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

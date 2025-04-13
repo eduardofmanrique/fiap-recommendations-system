@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user099",
+        "cnpjNumber": 19958417970391,
+        "urlComplementaryList": "https://empresa99.com/complementarylist"
+      },
+      "name": "Cartão Black Premium",
+      "identification": {
+        "product": {
+          "type": "STANDARD_NACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "AMERICAN_EXPRESS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa99.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_DIFERENCIADA",
+            "code": "ANUIDADE_DIFERENCIADA",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "1355.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.82"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "409.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "8398.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDICES_PRECO",
+            "rate": "0.166",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.68"
+                },
+                "customers": {
+                  "rate": "0.156"
+                }
+              }
+            ],
+            "minimumRate": "0.171",
+            "maximumRate": "0.501"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDICES_PRECO",
+            "rate": "0.39",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.138"
+                },
+                "customers": {
+                  "rate": "0.105"
+                }
+              }
+            ],
+            "minimumRate": "0.045",
+            "maximumRate": "0.13"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.25",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa99.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa99.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

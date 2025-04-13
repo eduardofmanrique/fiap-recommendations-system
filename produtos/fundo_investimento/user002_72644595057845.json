@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user002",
+        "cnpjNumber": 72644595057845,
+        "urlComplementaryList": "https://empresa8.com/companies"
+      },
+      "name": "FUNDO RENDA FIXA CDI",
+      "cnpjNumber": "99654162034749",
+      "isinCode": "BRINVFUND008",
+      "admin": {
+        "name": "ADM OPEN FINANCE 8 DTVM S.A.",
+        "cnpjNumber": "78225848741416"
+      },
+      "fundManager": {
+        "name": "GESTOR OPEN FINANCE 8 DTVM S.A.",
+        "cnpjNumber": "33098114361043"
+      },
+      "anbimaCategory": "RENDA_FIXA",
+      "fees": {
+        "maxAdminFee": "0.016072",
+        "entryFee": "0.015868",
+        "performanceFee": {
+          "method": "PASSIVO",
+          "benchmark": "INPC",
+          "benchmarkAdditionalInfo": "string",
+          "amount": "0.036124"
+        },
+        "exitFee": "0.042171"
+      },
+      "generalConditions": {
+        "minimumAmount": {
+          "value": "80294.88",
+          "currency": "BRL"
+        },
+        "redemption": {
+          "quotationDays": 2,
+          "quotationTerm": "DIAS_CORRIDOS",
+          "paymentDays": 1,
+          "paymentTerm": "DIAS_CORRIDOS",
+          "graceDays": 30
+        },
+        "application": {
+          "quotationDays": 8,
+          "quotationTerm": "DIAS_CORRIDOS"
+        },
+        "fundQuotaType": "COTA_ABERTURA"
+      },
+      "taxation": "CURTO_PRAZO"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

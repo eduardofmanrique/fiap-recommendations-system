@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user096",
+        "cnpjNumber": 38409025212001,
+        "urlComplementaryList": "https://empresa96.com/complementarylist"
+      },
+      "name": "Cartão Black Premium",
+      "identification": {
+        "product": {
+          "type": "ELETRONIC",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "CHEQUE_ELETRONICO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa96.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+            "code": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "360.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.28"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1987.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "4298.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.53",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.136"
+                },
+                "customers": {
+                  "rate": "0.116"
+                }
+              }
+            ],
+            "minimumRate": "0.494",
+            "maximumRate": "0.1950"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.103",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.167"
+                },
+                "customers": {
+                  "rate": "0.39"
+                }
+              }
+            ],
+            "minimumRate": "0.0135",
+            "maximumRate": "0.46"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.156",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa96.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa96.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

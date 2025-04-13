@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user100",
+        "cnpjNumber": 15838004910236,
+        "urlComplementaryList": "https://empresa100.com/complementarylist"
+      },
+      "name": "Cartão Platinum Plus",
+      "identification": {
+        "product": {
+          "type": "ELECTRON",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "BANDEIRA_PROPRIA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa100.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "SMS",
+            "code": "SMS",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "342.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.133"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1132.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "1802.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TRFC_PRE",
+            "rate": "0.56",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.88"
+                },
+                "customers": {
+                  "rate": "0.200"
+                }
+              }
+            ],
+            "minimumRate": "0.1683",
+            "maximumRate": "0.1745"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TRFC_PRE",
+            "rate": "0.47",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.73"
+                },
+                "customers": {
+                  "rate": "0.85"
+                }
+              }
+            ],
+            "minimumRate": "0.0181",
+            "maximumRate": "0.142"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "NAO_EXIGE_GARANTIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.194",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa100.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa100.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

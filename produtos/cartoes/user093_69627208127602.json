@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user093",
+        "cnpjNumber": 69627208127602,
+        "urlComplementaryList": "https://empresa93.com/complementarylist"
+      },
+      "name": "Cartão Essencial",
+      "identification": {
+        "product": {
+          "type": "ELETRONIC",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "VISA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa93.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "code": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "170.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.100"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1275.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "4990.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.173",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.149"
+                },
+                "customers": {
+                  "rate": "0.78"
+                }
+              }
+            ],
+            "minimumRate": "0.260",
+            "maximumRate": "0.1861"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.77",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.8"
+                },
+                "customers": {
+                  "rate": "0.190"
+                }
+              }
+            ],
+            "minimumRate": "0.0169",
+            "maximumRate": "0.142"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "NAO_EXIGE_GARANTIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.136",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa93.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa93.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

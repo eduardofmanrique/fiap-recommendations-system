@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user010",
+        "cnpjNumber": 43214577523299,
+        "urlComplementaryList": "https://empresa10.com/complementarylist"
+      },
+      "name": "Cartão Black Premium",
+      "identification": {
+        "product": {
+          "type": "REDESHOP",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "MASTERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa10.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "891.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.165"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "197.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "8670.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_SELIC",
+            "rate": "0.114",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.22"
+                },
+                "customers": {
+                  "rate": "0.129"
+                }
+              }
+            ],
+            "minimumRate": "0.1629",
+            "maximumRate": "0.1196"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_SELIC",
+            "rate": "0.130",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.187"
+                },
+                "customers": {
+                  "rate": "0.188"
+                }
+              }
+            ],
+            "minimumRate": "0.0121",
+            "maximumRate": "0.27"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "NAO_EXIGE_GARANTIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.46",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa10.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa10.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

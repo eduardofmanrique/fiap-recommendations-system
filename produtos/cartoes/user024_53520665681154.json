@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user024",
+        "cnpjNumber": 53520665681154,
+        "urlComplementaryList": "https://empresa24.com/complementarylist"
+      },
+      "name": "Cartão Universitário",
+      "identification": {
+        "product": {
+          "type": "REDESHOP",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "VISA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa24.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+            "code": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "1065.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.94"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1982.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "11316.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_POS",
+            "rate": "0.156",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.35"
+                },
+                "customers": {
+                  "rate": "0.103"
+                }
+              }
+            ],
+            "minimumRate": "0.555",
+            "maximumRate": "0.472"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_POS",
+            "rate": "0.39",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.143"
+                },
+                "customers": {
+                  "rate": "0.87"
+                }
+              }
+            ],
+            "minimumRate": "0.0103",
+            "maximumRate": "0.39"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.114",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa24.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa24.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

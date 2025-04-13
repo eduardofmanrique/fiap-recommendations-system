@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user055",
+        "cnpjNumber": 42033677187837,
+        "urlComplementaryList": "https://empresa55.com/complementarylist"
+      },
+      "name": "Cartão Black Premium",
+      "identification": {
+        "product": {
+          "type": "ELECTRON",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "VISA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa55.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_DIFERENCIADA",
+            "code": "ANUIDADE_DIFERENCIADA",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "1836.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.18"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "798.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "7153.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCA",
+            "rate": "0.84",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.92"
+                },
+                "customers": {
+                  "rate": "0.66"
+                }
+              }
+            ],
+            "minimumRate": "0.667",
+            "maximumRate": "0.787"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCA",
+            "rate": "0.93",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.78"
+                },
+                "customers": {
+                  "rate": "0.63"
+                }
+              }
+            ],
+            "minimumRate": "0.025",
+            "maximumRate": "0.168"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.175",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa55.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa55.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

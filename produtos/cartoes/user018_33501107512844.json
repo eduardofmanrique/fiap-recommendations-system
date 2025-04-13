@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user018",
+        "cnpjNumber": 33501107512844,
+        "urlComplementaryList": "https://empresa18.com/complementarylist"
+      },
+      "name": "Cartão Black Premium",
+      "identification": {
+        "product": {
+          "type": "ELETRONIC",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "OUTRAS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa18.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "1120.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.85"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "512.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "4257.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.106",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.35"
+                },
+                "customers": {
+                  "rate": "0.43"
+                }
+              }
+            ],
+            "minimumRate": "0.683",
+            "maximumRate": "0.1295"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.18",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.39"
+                },
+                "customers": {
+                  "rate": "0.167"
+                }
+              }
+            ],
+            "minimumRate": "0.0126",
+            "maximumRate": "0.182"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.18",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa18.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa18.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

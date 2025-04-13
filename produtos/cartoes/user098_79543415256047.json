@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user098",
+        "cnpjNumber": 79543415256047,
+        "urlComplementaryList": "https://empresa98.com/complementarylist"
+      },
+      "name": "Cartão Universitário",
+      "identification": {
+        "product": {
+          "type": "ELETRONIC",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "VISA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa98.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+            "code": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "190.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.100"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1063.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "10352.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_POS",
+            "rate": "0.102",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.122"
+                },
+                "customers": {
+                  "rate": "0.40"
+                }
+              }
+            ],
+            "minimumRate": "0.1939",
+            "maximumRate": "0.125"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_POS",
+            "rate": "0.136",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.125"
+                },
+                "customers": {
+                  "rate": "0.173"
+                }
+              }
+            ],
+            "minimumRate": "0.0159",
+            "maximumRate": "0.156"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "NAO_EXIGE_GARANTIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.179",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa98.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa98.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

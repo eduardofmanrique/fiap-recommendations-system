@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user042",
+        "cnpjNumber": 39900973372150,
+        "urlComplementaryList": "https://empresa42.com/complementarylist"
+      },
+      "name": "Cartão Viagem Internacional",
+      "identification": {
+        "product": {
+          "type": "STANDARD_INTERNACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "ELO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa42.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_DIFERENCIADA",
+            "code": "ANUIDADE_DIFERENCIADA",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "1526.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.138"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "945.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "2162.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_POS",
+            "rate": "0.77",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.100"
+                },
+                "customers": {
+                  "rate": "0.124"
+                }
+              }
+            ],
+            "minimumRate": "0.465",
+            "maximumRate": "0.388"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_POS",
+            "rate": "0.156",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.197"
+                },
+                "customers": {
+                  "rate": "0.23"
+                }
+              }
+            ],
+            "minimumRate": "0.0163",
+            "maximumRate": "0.198"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.191",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa42.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa42.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

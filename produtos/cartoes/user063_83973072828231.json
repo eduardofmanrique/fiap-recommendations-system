@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user063",
+        "cnpjNumber": 83973072828231,
+        "urlComplementaryList": "https://empresa63.com/complementarylist"
+      },
+      "name": "Cartão Estudante Conectado",
+      "identification": {
+        "product": {
+          "type": "ELECTRON",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "HIPERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa63.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "code": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "1968.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.71"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "290.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "3728.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.31",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.141"
+                },
+                "customers": {
+                  "rate": "0.76"
+                }
+              }
+            ],
+            "minimumRate": "0.1718",
+            "maximumRate": "0.1779"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.131",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.42"
+                },
+                "customers": {
+                  "rate": "0.132"
+                }
+              }
+            ],
+            "minimumRate": "0.088",
+            "maximumRate": "0.32"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.197",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa63.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa63.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user025",
+        "cnpjNumber": 17316018324575,
+        "urlComplementaryList": "https://empresa25.com/complementarylist"
+      },
+      "name": "Cartão Universitário",
+      "identification": {
+        "product": {
+          "type": "REDESHOP",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "CHEQUE_ELETRONICO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa25.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_DIFERENCIADA",
+            "code": "ANUIDADE_DIFERENCIADA",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "1776.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.135"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1748.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "8104.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.156",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.38"
+                },
+                "customers": {
+                  "rate": "0.163"
+                }
+              }
+            ],
+            "minimumRate": "0.1167",
+            "maximumRate": "0.1847"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.37",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.133"
+                },
+                "customers": {
+                  "rate": "0.88"
+                }
+              }
+            ],
+            "minimumRate": "0.0145",
+            "maximumRate": "0.172"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.130",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa25.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa25.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

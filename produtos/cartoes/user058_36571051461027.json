@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user058",
+        "cnpjNumber": 36571051461027,
+        "urlComplementaryList": "https://empresa58.com/complementarylist"
+      },
+      "name": "Cartão Platinum Plus",
+      "identification": {
+        "product": {
+          "type": "REDESHOP",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "OUTRAS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa58.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "SMS",
+            "code": "SMS",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "1497.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.137"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1073.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "1990.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_SELIC",
+            "rate": "0.48",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.12"
+                },
+                "customers": {
+                  "rate": "0.190"
+                }
+              }
+            ],
+            "minimumRate": "0.1127",
+            "maximumRate": "0.915"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_SELIC",
+            "rate": "0.104",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.97"
+                },
+                "customers": {
+                  "rate": "0.156"
+                }
+              }
+            ],
+            "minimumRate": "0.011",
+            "maximumRate": "0.153"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.19",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa58.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa58.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

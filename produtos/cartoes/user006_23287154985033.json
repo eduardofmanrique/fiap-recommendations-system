@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user006",
+        "cnpjNumber": 23287154985033,
+        "urlComplementaryList": "https://empresa6.com/complementarylist"
+      },
+      "name": "Cartão Universitário",
+      "identification": {
+        "product": {
+          "type": "BLUEBOX",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "BANDEIRA_PROPRIA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa6.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "SMS",
+            "code": "SMS",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "44.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.143"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1858.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "6054.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TRFC_PRE",
+            "rate": "0.98",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.102"
+                },
+                "customers": {
+                  "rate": "0.8"
+                }
+              }
+            ],
+            "minimumRate": "0.462",
+            "maximumRate": "0.420"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TRFC_PRE",
+            "rate": "0.52",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.43"
+                },
+                "customers": {
+                  "rate": "0.95"
+                }
+              }
+            ],
+            "minimumRate": "0.080",
+            "maximumRate": "0.72"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.140",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa6.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa6.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

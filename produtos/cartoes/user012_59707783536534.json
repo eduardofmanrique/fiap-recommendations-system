@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user012",
+        "cnpjNumber": 59707783536534,
+        "urlComplementaryList": "https://empresa12.com/complementarylist"
+      },
+      "name": "Cartão Cashback Turbo",
+      "identification": {
+        "product": {
+          "type": "MAESTRO_MASTERCARD_MAESTRO",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "HIPERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa12.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "1806.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.195"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "496.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "9457.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDICES_PRECO",
+            "rate": "0.34",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.127"
+                },
+                "customers": {
+                  "rate": "0.153"
+                }
+              }
+            ],
+            "minimumRate": "0.557",
+            "maximumRate": "0.1146"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDICES_PRECO",
+            "rate": "0.68",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.51"
+                },
+                "customers": {
+                  "rate": "0.170"
+                }
+              }
+            ],
+            "minimumRate": "0.070",
+            "maximumRate": "0.84"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.93",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa12.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa12.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

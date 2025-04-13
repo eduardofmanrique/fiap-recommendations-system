@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user068",
+        "cnpjNumber": 97237002985779,
+        "urlComplementaryList": "https://empresa2.com/companies"
+      },
+      "name": "FUNDO INTERNACIONAL TECH",
+      "cnpjNumber": "84512710254389",
+      "isinCode": "BRINVFUND002",
+      "admin": {
+        "name": "ADM OPEN FINANCE 2 DTVM S.A.",
+        "cnpjNumber": "72405251915454"
+      },
+      "fundManager": {
+        "name": "GESTOR OPEN FINANCE 2 DTVM S.A.",
+        "cnpjNumber": "42994502567987"
+      },
+      "anbimaCategory": "MULTIMERCADO",
+      "fees": {
+        "maxAdminFee": "0.012594",
+        "entryFee": "0.008682",
+        "performanceFee": {
+          "method": "AJUSTE",
+          "benchmark": "TAXA_SELIC",
+          "benchmarkAdditionalInfo": "string",
+          "amount": "0.099451"
+        },
+        "exitFee": "0.017556"
+      },
+      "generalConditions": {
+        "minimumAmount": {
+          "value": "36268.86",
+          "currency": "BRL"
+        },
+        "redemption": {
+          "quotationDays": 5,
+          "quotationTerm": "DIAS_CORRIDOS",
+          "paymentDays": 5,
+          "paymentTerm": "DIAS_CORRIDOS",
+          "graceDays": 90
+        },
+        "application": {
+          "quotationDays": 9,
+          "quotationTerm": "DIAS_CORRIDOS"
+        },
+        "fundQuotaType": "COTA_ABERTURA"
+      },
+      "taxation": "LONGO_PRAZO"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user001",
+        "cnpjNumber": 43916048747272,
+        "urlComplementaryList": "https://empresa1.com/complementarylist"
+      },
+      "name": "Cartão Estudante Conectado",
+      "identification": {
+        "product": {
+          "type": "OUTROS",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "CHEQUE_ELETRONICO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa1.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+            "code": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "170.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.163"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1820.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "9764.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCA",
+            "rate": "0.11",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.157"
+                },
+                "customers": {
+                  "rate": "0.98"
+                }
+              }
+            ],
+            "minimumRate": "0.312",
+            "maximumRate": "0.1190"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCA",
+            "rate": "0.120",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.153"
+                },
+                "customers": {
+                  "rate": "0.107"
+                }
+              }
+            ],
+            "minimumRate": "0.043",
+            "maximumRate": "0.167"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.109",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa1.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa1.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user019",
+        "cnpjNumber": 18935228687024,
+        "urlComplementaryList": "https://empresa19.com/complementarylist"
+      },
+      "name": "Cartão Estudante Conectado",
+      "identification": {
+        "product": {
+          "type": "CLASSIC_NACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "MASTERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa19.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_DIFERENCIADA",
+            "code": "ANUIDADE_DIFERENCIADA",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "449.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.197"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "843.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "10320.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.65",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.196"
+                },
+                "customers": {
+                  "rate": "0.57"
+                }
+              }
+            ],
+            "minimumRate": "0.195",
+            "maximumRate": "0.1192"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.35",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.187"
+                },
+                "customers": {
+                  "rate": "0.2"
+                }
+              }
+            ],
+            "minimumRate": "0.0104",
+            "maximumRate": "0.160"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "NAO_EXIGE_GARANTIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.147",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa19.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa19.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

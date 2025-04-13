@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user036",
+        "cnpjNumber": 56703990941148,
+        "urlComplementaryList": "https://empresa36.com/complementarylist"
+      },
+      "name": "Cartão Viagem Internacional",
+      "identification": {
+        "product": {
+          "type": "CLASSIC_NACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "VISA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa36.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "code": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "1081.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.104"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "578.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "607.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCA",
+            "rate": "0.108",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.153"
+                },
+                "customers": {
+                  "rate": "0.3"
+                }
+              }
+            ],
+            "minimumRate": "0.1250",
+            "maximumRate": "0.839"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCA",
+            "rate": "0.136",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.16"
+                },
+                "customers": {
+                  "rate": "0.157"
+                }
+              }
+            ],
+            "minimumRate": "0.0195",
+            "maximumRate": "0.118"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.135",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa36.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa36.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user066",
+        "cnpjNumber": 10081515928890,
+        "urlComplementaryList": "https://empresa66.com/complementarylist"
+      },
+      "name": "Cartão Platinum Plus",
+      "identification": {
+        "product": {
+          "type": "REDESHOP",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "AMERICAN_EXPRESS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa66.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "SMS",
+            "code": "SMS",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "558.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.31"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1778.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "9414.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_CDI",
+            "rate": "0.5",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.13"
+                },
+                "customers": {
+                  "rate": "0.193"
+                }
+              }
+            ],
+            "minimumRate": "0.1902",
+            "maximumRate": "0.1953"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_CDI",
+            "rate": "0.156",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.1"
+                },
+                "customers": {
+                  "rate": "0.16"
+                }
+              }
+            ],
+            "minimumRate": "0.0197",
+            "maximumRate": "0.33"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.39",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa66.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa66.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

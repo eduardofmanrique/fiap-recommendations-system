@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user074",
+        "cnpjNumber": 24239842226543,
+        "urlComplementaryList": "https://empresa3.com/mobile-banking"
+      },
+      "type": "EMPRESTIMO_CREDITO_PESSOAL_SEM_CONSIGNACAO",
+      "fees": {
+        "services": [
+          {
+            "name": "Taxa de Abertura",
+            "code": "NA",
+            "chargingTriggerInfo": "3% do valor do contrato",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "1565.78",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.093337"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "2558.69",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.130626"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "692.36",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.056742"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "2294.84",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.124637"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "877.43",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "10997.94",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interestRates": [
+        {
+          "referentialRateIndexer": "SEM_INDEXADOR_TAXA",
+          "rate": "0.088616",
+          "applications": [
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.181416"
+              },
+              "customers": {
+                "rate": "0.106899"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.186345"
+              },
+              "customers": {
+                "rate": "0.200069"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.194729"
+              },
+              "customers": {
+                "rate": "0.076063"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.158012"
+              },
+              "customers": {
+                "rate": "0.217801"
+              }
+            }
+          ],
+          "minimumRate": "0.022407",
+          "maximumRate": "0.646393"
+        }
+      ],
+      "requiredWarranties": [
+        "PENHOR"
+      ],
+      "termsConditions": "https://empresa3.com/personal_loans"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

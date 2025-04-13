@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user046",
+        "cnpjNumber": 60006462795832,
+        "urlComplementaryList": "https://empresa46.com/complementarylist"
+      },
+      "name": "Cartão Black Premium",
+      "identification": {
+        "product": {
+          "type": "CORPORATIVO",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "BANDEIRA_PROPRIA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa46.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "code": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "1167.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.197"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1650.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "3872.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_PRE",
+            "rate": "0.120",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.198"
+                },
+                "customers": {
+                  "rate": "0.97"
+                }
+              }
+            ],
+            "minimumRate": "0.257",
+            "maximumRate": "0.193"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_PRE",
+            "rate": "0.129",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.16"
+                },
+                "customers": {
+                  "rate": "0.137"
+                }
+              }
+            ],
+            "minimumRate": "0.0158",
+            "maximumRate": "0.10"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.101",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa46.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa46.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

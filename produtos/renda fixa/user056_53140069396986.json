@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user056",
+        "cnpjNumber": 53140069396986,
+        "urlComplementaryList": "https://empresa7.com/companies"
+      },
+      "issuerInstitutionCnpjNumber": "89717547654887",
+      "issuerInstitutionName": "Organização A7",
+      "investmentType": "CDB",
+      "index": {
+        "indexer": "IGP_M",
+        "indexerAdditionalInfo": "Informações adicionais",
+        "issueRemunerationRate": {
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.155274",
+              "operationRate": "0.474547"
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.085055",
+              "operationRate": "0.369830"
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.060187",
+              "operationRate": "0.249759"
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.082486",
+              "operationRate": "0.136888"
+            }
+          ],
+          "minimum": "0.060187",
+          "maximum": "0.155274"
+        }
+      },
+      "investmentConditions": {
+        "minimumAmount": "5638.24",
+        "redemptionTerm": "DIARIA",
+        "expirationPeriod": "1_360",
+        "gracePeriod": "1_360"
+      },
+      "targetAudience": "PESSOA_JURIDICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

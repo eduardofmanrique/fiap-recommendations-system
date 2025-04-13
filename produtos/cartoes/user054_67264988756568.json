@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user054",
+        "cnpjNumber": 67264988756568,
+        "urlComplementaryList": "https://empresa54.com/complementarylist"
+      },
+      "name": "Cartão Viagem Internacional",
+      "identification": {
+        "product": {
+          "type": "BLUE",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "VISA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa54.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "1395.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.111"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "395.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "7047.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_POS",
+            "rate": "0.109",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.116"
+                },
+                "customers": {
+                  "rate": "0.72"
+                }
+              }
+            ],
+            "minimumRate": "0.51",
+            "maximumRate": "0.971"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_POS",
+            "rate": "0.62",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.176"
+                },
+                "customers": {
+                  "rate": "0.121"
+                }
+              }
+            ],
+            "minimumRate": "0.0194",
+            "maximumRate": "0.10"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.54",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa54.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa54.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

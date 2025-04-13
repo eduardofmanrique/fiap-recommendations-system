@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user068",
+        "cnpjNumber": 97237002985779,
+        "urlComplementaryList": "https://empresa68.com/complementarylist"
+      },
+      "name": "Cartão Platinum Plus",
+      "identification": {
+        "product": {
+          "type": "CHEQUE_ELETRONICO",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "MASTERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa68.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "code": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "786.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.25"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "386.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "9960.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "SEM_INDEXADOR_TAXA",
+            "rate": "0.148",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.30"
+                },
+                "customers": {
+                  "rate": "0.2"
+                }
+              }
+            ],
+            "minimumRate": "0.149",
+            "maximumRate": "0.489"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "SEM_INDEXADOR_TAXA",
+            "rate": "0.140",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.174"
+                },
+                "customers": {
+                  "rate": "0.64"
+                }
+              }
+            ],
+            "minimumRate": "0.0178",
+            "maximumRate": "0.130"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.200",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa68.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa68.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

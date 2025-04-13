@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user015",
+        "cnpjNumber": 98601747679139,
+        "urlComplementaryList": "https://empresa15.com/complementarylist"
+      },
+      "name": "Cartão Gold Rewards",
+      "identification": {
+        "product": {
+          "type": "OUTROS",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "BANDEIRA_PROPRIA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa15.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+            "code": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "454.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.38"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "971.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "9294.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_TJLP",
+            "rate": "0.174",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.39"
+                },
+                "customers": {
+                  "rate": "0.92"
+                }
+              }
+            ],
+            "minimumRate": "0.1194",
+            "maximumRate": "0.584"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_TJLP",
+            "rate": "0.29",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.176"
+                },
+                "customers": {
+                  "rate": "0.18"
+                }
+              }
+            ],
+            "minimumRate": "0.088",
+            "maximumRate": "0.37"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.146",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa15.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa15.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

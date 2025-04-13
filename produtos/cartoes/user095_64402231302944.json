@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user095",
+        "cnpjNumber": 64402231302944,
+        "urlComplementaryList": "https://empresa95.com/complementarylist"
+      },
+      "name": "Cartão Cashback Turbo",
+      "identification": {
+        "product": {
+          "type": "COMPRAS",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "MASTERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa95.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_DIFERENCIADA",
+            "code": "ANUIDADE_DIFERENCIADA",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "1461.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.1"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "324.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "1939.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.150",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.88"
+                },
+                "customers": {
+                  "rate": "0.143"
+                }
+              }
+            ],
+            "minimumRate": "0.1801",
+            "maximumRate": "0.401"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCC",
+            "rate": "0.198",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.88"
+                },
+                "customers": {
+                  "rate": "0.172"
+                }
+              }
+            ],
+            "minimumRate": "0.0104",
+            "maximumRate": "0.56"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.6",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa95.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa95.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user075",
+        "cnpjNumber": 54228780032691,
+        "urlComplementaryList": "https://empresa3.com/companies"
+      },
+      "issuerInstitutionCnpjNumber": "88408756703979",
+      "issuerInstitutionName": "Organização A3",
+      "investmentType": "LCA",
+      "index": {
+        "indexer": "BCP",
+        "indexerAdditionalInfo": "Informações adicionais",
+        "issueRemunerationRate": {
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.245657",
+              "operationRate": "0.417870"
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.069358",
+              "operationRate": "0.468973"
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.162272",
+              "operationRate": "0.169914"
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.125224",
+              "operationRate": "0.217917"
+            }
+          ],
+          "minimum": "0.069358",
+          "maximum": "0.245657"
+        }
+      },
+      "investmentConditions": {
+        "minimumAmount": "4945.07",
+        "redemptionTerm": "DIARIA",
+        "expirationPeriod": "1081+",
+        "gracePeriod": "1_360"
+      },
+      "targetAudience": "PESSOA_FISICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user041",
+        "cnpjNumber": 85216753240904,
+        "urlComplementaryList": "https://empresa41.com/complementarylist"
+      },
+      "name": "Cartão Platinum Plus",
+      "identification": {
+        "product": {
+          "type": "STANDARD_NACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "ELO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa41.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_EXTERIOR",
+            "code": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_EXTERIOR",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "780.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.105"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "849.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "6718.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_SELIC",
+            "rate": "0.92",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.133"
+                },
+                "customers": {
+                  "rate": "0.87"
+                }
+              }
+            ],
+            "minimumRate": "0.1892",
+            "maximumRate": "0.992"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_SELIC",
+            "rate": "0.150",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.97"
+                },
+                "customers": {
+                  "rate": "0.121"
+                }
+              }
+            ],
+            "minimumRate": "0.042",
+            "maximumRate": "0.155"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.91",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa41.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa41.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

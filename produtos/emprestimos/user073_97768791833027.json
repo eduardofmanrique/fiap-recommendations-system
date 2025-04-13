@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user073",
+        "cnpjNumber": 97768791833027,
+        "urlComplementaryList": "https://empresa26.com/mobile-banking"
+      },
+      "type": "EMPRESTIMO_CREDITO_PESSOAL_CONSIGNADO",
+      "fees": {
+        "services": [
+          {
+            "name": "Taxa de Abertura",
+            "code": "NA",
+            "chargingTriggerInfo": "3% do valor do contrato",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "4971.98",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.186955"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "4632.01",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.054464"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "3180.58",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.223750"
+                }
+              },
+              {
+                "interval": "3_FAIXA",
+                "value": "4655.27",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.108520"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "383.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "8239.72",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interestRates": [
+        {
+          "referentialRateIndexer": "PRE_FIXADO",
+          "rate": "0.189372",
+          "applications": [
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.138314"
+              },
+              "customers": {
+                "rate": "0.099522"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.072394"
+              },
+              "customers": {
+                "rate": "0.134689"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.090653"
+              },
+              "customers": {
+                "rate": "0.165890"
+              }
+            },
+            {
+              "interval": "3_FAIXA",
+              "indexer": {
+                "rate": "0.086808"
+              },
+              "customers": {
+                "rate": "0.123285"
+              }
+            }
+          ],
+          "minimumRate": "0.045930",
+          "maximumRate": "0.549239"
+        }
+      ],
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": "https://empresa26.com/personal_loans"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

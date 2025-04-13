@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user082",
+        "cnpjNumber": 95213240466026,
+        "urlComplementaryList": "https://empresa82.com/complementarylist"
+      },
+      "name": "Cartão Viagem Internacional",
+      "identification": {
+        "product": {
+          "type": "EMPRESARIAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "ELO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa82.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_EXTERIOR",
+            "code": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_EXTERIOR",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "1036.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.191"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1320.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "10526.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_POS_FIXADAS",
+            "rate": "0.147",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.17"
+                },
+                "customers": {
+                  "rate": "0.139"
+                }
+              }
+            ],
+            "minimumRate": "0.216",
+            "maximumRate": "0.735"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_POS_FIXADAS",
+            "rate": "0.17",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.83"
+                },
+                "customers": {
+                  "rate": "0.168"
+                }
+              }
+            ],
+            "minimumRate": "0.040",
+            "maximumRate": "0.125"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.175",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa82.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa82.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

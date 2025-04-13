@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user088",
+        "cnpjNumber": 35721351664170,
+        "urlComplementaryList": "https://empresa88.com/complementarylist"
+      },
+      "name": "Cartão Digital Free",
+      "identification": {
+        "product": {
+          "type": "GREEN",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "CHEQUE_ELETRONICO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa88.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "code": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "388.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.165"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "740.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "8193.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_POS_FIXADAS",
+            "rate": "0.177",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.69"
+                },
+                "customers": {
+                  "rate": "0.54"
+                }
+              }
+            ],
+            "minimumRate": "0.250",
+            "maximumRate": "0.1452"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_POS_FIXADAS",
+            "rate": "0.19",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.173"
+                },
+                "customers": {
+                  "rate": "0.133"
+                }
+              }
+            ],
+            "minimumRate": "0.011",
+            "maximumRate": "0.113"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.69",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa88.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa88.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

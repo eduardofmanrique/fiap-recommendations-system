@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user092",
+        "cnpjNumber": 13715209806711,
+        "urlComplementaryList": "https://empresa92.com/complementarylist"
+      },
+      "name": "Cartão Black Premium",
+      "identification": {
+        "product": {
+          "type": "CLASSIC_INTERNACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "DINERS_CLUB",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa92.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "code": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "163.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.21"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1044.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "4538.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_LIBOR",
+            "rate": "0.90",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.72"
+                },
+                "customers": {
+                  "rate": "0.22"
+                }
+              }
+            ],
+            "minimumRate": "0.1496",
+            "maximumRate": "0.999"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_LIBOR",
+            "rate": "0.190",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.186"
+                },
+                "customers": {
+                  "rate": "0.40"
+                }
+              }
+            ],
+            "minimumRate": "0.019",
+            "maximumRate": "0.170"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.8",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa92.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa92.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

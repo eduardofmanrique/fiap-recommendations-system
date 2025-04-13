@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user078",
+        "cnpjNumber": 70344565978616,
+        "urlComplementaryList": "https://empresa6.com/mobile-banking"
+      },
+      "type": "EMPRESTIMO_CREDITO_PESSOAL_CONSIGNADO",
+      "fees": {
+        "services": [
+          {
+            "name": "Taxa de Abertura",
+            "code": "NA",
+            "chargingTriggerInfo": "3% do valor do contrato",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "3861.23",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.184256"
+                }
+              },
+              {
+                "interval": "4_FAIXA",
+                "value": "1168.23",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.112881"
+                }
+              },
+              {
+                "interval": "4_FAIXA",
+                "value": "2358.09",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.213023"
+                }
+              },
+              {
+                "interval": "4_FAIXA",
+                "value": "2982.76",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.063914"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "302.70",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "18712.51",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interestRates": [
+        {
+          "referentialRateIndexer": "FLUTUANTE",
+          "rate": "0.067289",
+          "applications": [
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.064424"
+              },
+              "customers": {
+                "rate": "0.088443"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.176793"
+              },
+              "customers": {
+                "rate": "0.083436"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.072810"
+              },
+              "customers": {
+                "rate": "0.122470"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.072636"
+              },
+              "customers": {
+                "rate": "0.107076"
+              }
+            }
+          ],
+          "minimumRate": "0.044524",
+          "maximumRate": "0.589243"
+        }
+      ],
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": "https://empresa6.com/personal_loans"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

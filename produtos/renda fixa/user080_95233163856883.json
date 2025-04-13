@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user080",
+        "cnpjNumber": 95233163856883,
+        "urlComplementaryList": "https://empresa13.com/companies"
+      },
+      "issuerInstitutionCnpjNumber": "30061398422657",
+      "issuerInstitutionName": "Organização A13",
+      "investmentType": "LCA",
+      "index": {
+        "indexer": "INPC",
+        "indexerAdditionalInfo": "Informações adicionais",
+        "issueRemunerationRate": {
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.023933",
+              "operationRate": "0.416982"
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.120899",
+              "operationRate": "0.473440"
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.042331",
+              "operationRate": "0.440195"
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.092637",
+              "operationRate": "0.403312"
+            }
+          ],
+          "minimum": "0.023933",
+          "maximum": "0.120899"
+        }
+      },
+      "investmentConditions": {
+        "minimumAmount": "1777.11",
+        "redemptionTerm": "DATA_VENCIMENTO",
+        "expirationPeriod": "1081+",
+        "gracePeriod": "1_360"
+      },
+      "targetAudience": "PESSOA_FISICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

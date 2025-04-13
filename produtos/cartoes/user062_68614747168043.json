@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user062",
+        "cnpjNumber": 68614747168043,
+        "urlComplementaryList": "https://empresa62.com/complementarylist"
+      },
+      "name": "Cartão Black Premium",
+      "identification": {
+        "product": {
+          "type": "CLASSIC_INTERNACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "AMERICAN_EXPRESS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa62.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_DIFERENCIADA",
+            "code": "ANUIDADE_DIFERENCIADA",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "96.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.154"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1805.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "6361.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_FLUTUANTES",
+            "rate": "0.43",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.16"
+                },
+                "customers": {
+                  "rate": "0.124"
+                }
+              }
+            ],
+            "minimumRate": "0.1030",
+            "maximumRate": "0.23"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_FLUTUANTES",
+            "rate": "0.193",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.131"
+                },
+                "customers": {
+                  "rate": "0.16"
+                }
+              }
+            ],
+            "minimumRate": "0.0108",
+            "maximumRate": "0.1"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.170",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa62.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa62.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

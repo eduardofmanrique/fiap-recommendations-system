@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user060",
+        "cnpjNumber": 41337920352481,
+        "urlComplementaryList": "https://empresa60.com/complementarylist"
+      },
+      "name": "Cartão Cashback Turbo",
+      "identification": {
+        "product": {
+          "type": "ELECTRON",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "AMERICAN_EXPRESS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa60.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_NACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_NACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "26.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.134"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "923.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "9624.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_PRE",
+            "rate": "0.33",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.141"
+                },
+                "customers": {
+                  "rate": "0.55"
+                }
+              }
+            ],
+            "minimumRate": "0.255",
+            "maximumRate": "0.1942"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TCR_PRE",
+            "rate": "0.66",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.75"
+                },
+                "customers": {
+                  "rate": "0.6"
+                }
+              }
+            ],
+            "minimumRate": "0.026",
+            "maximumRate": "0.87"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.165",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa60.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa60.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

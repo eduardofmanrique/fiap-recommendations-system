@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user008",
+        "cnpjNumber": 15807788572270,
+        "urlComplementaryList": "https://empresa14.com/companies"
+      },
+      "issuerInstitutionCnpjNumber": "61325976574022",
+      "issuerInstitutionName": "Organização A14",
+      "investmentType": "LCI",
+      "index": {
+        "indexer": "SELIC",
+        "indexerAdditionalInfo": "Informações adicionais",
+        "issueRemunerationRate": {
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.107671",
+              "operationRate": "0.373668"
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.022154",
+              "operationRate": "0.169357"
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.189401",
+              "operationRate": "0.368877"
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.163046",
+              "operationRate": "0.306356"
+            }
+          ],
+          "minimum": "0.022154",
+          "maximum": "0.189401"
+        }
+      },
+      "investmentConditions": {
+        "minimumAmount": "6453.70",
+        "redemptionTerm": "DATA_VENCIMENTO",
+        "expirationPeriod": "361_1080",
+        "gracePeriod": "361_1080"
+      },
+      "targetAudience": "PESSOA_FISICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

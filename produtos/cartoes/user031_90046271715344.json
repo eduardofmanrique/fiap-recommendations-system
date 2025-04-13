@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user031",
+        "cnpjNumber": 90046271715344,
+        "urlComplementaryList": "https://empresa31.com/complementarylist"
+      },
+      "name": "Cartão Estudante Conectado",
+      "identification": {
+        "product": {
+          "type": "BLUEBOX",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "CHEQUE_ELETRONICO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa31.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_DIFERENCIADA",
+            "code": "ANUIDADE_DIFERENCIADA",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "1016.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.189"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1630.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "1677.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_LIBOR",
+            "rate": "0.142",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.147"
+                },
+                "customers": {
+                  "rate": "0.69"
+                }
+              }
+            ],
+            "minimumRate": "0.323",
+            "maximumRate": "0.620"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_LIBOR",
+            "rate": "0.152",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.104"
+                },
+                "customers": {
+                  "rate": "0.118"
+                }
+              }
+            ],
+            "minimumRate": "0.0119",
+            "maximumRate": "0.128"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "NAO_EXIGE_GARANTIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.156",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa31.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa31.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

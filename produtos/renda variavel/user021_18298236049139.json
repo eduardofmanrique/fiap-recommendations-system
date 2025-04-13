@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user021",
+        "cnpjNumber": 18298236049139,
+        "urlComplementaryList": "https://empresa2.com/companies"
+      },
+      "investmentType": "FUNDO_INDICES",
+      "custodyFee": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.036069",
+            "operationRate": "0.476478"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.042604",
+            "operationRate": "0.107515"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.084949",
+            "operationRate": "0.265973"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.140112",
+            "operationRate": "0.245300"
+          }
+        ],
+        "minimum": "0.036069",
+        "maximum": "0.140112"
+      },
+      "loadingRate": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.020331",
+            "operationRate": "0.200813"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.015271",
+            "operationRate": "0.156144"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.202743",
+            "operationRate": "0.400190"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.290736",
+            "operationRate": "0.177321"
+          }
+        ],
+        "minimum": "0.015271",
+        "maximum": "0.290736"
+      },
+      "targetAudience": "PESSOA_JURIDICA"
+    },
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user021",
+        "cnpjNumber": 18298236049139,
+        "urlComplementaryList": "https://empresa2.com/companies"
+      },
+      "investmentType": "FUNDO_INDICES",
+      "custodyFee": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.227826",
+            "operationRate": "0.353487"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.274743",
+            "operationRate": "0.451645"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.039389",
+            "operationRate": "0.091280"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.072167",
+            "operationRate": "0.348245"
+          }
+        ],
+        "minimum": "0.039389",
+        "maximum": "0.274743"
+      },
+      "loadingRate": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.297264",
+            "operationRate": "0.238055"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.116141",
+            "operationRate": "0.068725"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.083345",
+            "operationRate": "0.376845"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.132038",
+            "operationRate": "0.252983"
+          }
+        ],
+        "minimum": "0.083345",
+        "maximum": "0.297264"
+      },
+      "targetAudience": "PESSOA_JURIDICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 2,
+    "totalPages": 1
+  }
+}

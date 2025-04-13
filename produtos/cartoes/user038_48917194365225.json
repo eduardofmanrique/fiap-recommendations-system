@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user038",
+        "cnpjNumber": 48917194365225,
+        "urlComplementaryList": "https://empresa38.com/complementarylist"
+      },
+      "name": "Cartão Essencial",
+      "identification": {
+        "product": {
+          "type": "OUTROS",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "BANDEIRA_PROPRIA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa38.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_EXTERIOR",
+            "code": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_EXTERIOR",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "1606.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.137"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1506.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "10843.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_LIBOR",
+            "rate": "0.81",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.63"
+                },
+                "customers": {
+                  "rate": "0.173"
+                }
+              }
+            ],
+            "minimumRate": "0.1263",
+            "maximumRate": "0.316"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "POS_FIXADO_LIBOR",
+            "rate": "0.140",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.175"
+                },
+                "customers": {
+                  "rate": "0.36"
+                }
+              }
+            ],
+            "minimumRate": "0.0153",
+            "maximumRate": "0.84"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.82",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa38.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa38.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

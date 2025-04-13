@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user011",
+        "cnpjNumber": 98554328005156,
+        "urlComplementaryList": "https://empresa11.com/complementarylist"
+      },
+      "name": "Cartão Cashback Turbo",
+      "identification": {
+        "product": {
+          "type": "COMPRAS",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "HIPERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa11.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_NACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_NACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "910.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.136"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "165.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "4693.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TRFC_PRE",
+            "rate": "0.190",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.52"
+                },
+                "customers": {
+                  "rate": "0.104"
+                }
+              }
+            ],
+            "minimumRate": "0.2",
+            "maximumRate": "0.965"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TRFC_PRE",
+            "rate": "0.97",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.75"
+                },
+                "customers": {
+                  "rate": "0.9"
+                }
+              }
+            ],
+            "minimumRate": "0.0170",
+            "maximumRate": "0.189"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.17",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa11.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa11.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

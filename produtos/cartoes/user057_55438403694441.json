@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user057",
+        "cnpjNumber": 55438403694441,
+        "urlComplementaryList": "https://empresa57.com/complementarylist"
+      },
+      "name": "Cartão Viagem Internacional",
+      "identification": {
+        "product": {
+          "type": "EMPRESARIAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "MASTERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa57.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "SMS",
+            "code": "SMS",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "106.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.150"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "872.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "7003.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_SELIC",
+            "rate": "0.94",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.21"
+                },
+                "customers": {
+                  "rate": "0.187"
+                }
+              }
+            ],
+            "minimumRate": "0.1227",
+            "maximumRate": "0.853"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "FLUTUANTES_SELIC",
+            "rate": "0.168",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.140"
+                },
+                "customers": {
+                  "rate": "0.115"
+                }
+              }
+            ],
+            "minimumRate": "0.042",
+            "maximumRate": "0.122"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.11",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa57.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa57.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

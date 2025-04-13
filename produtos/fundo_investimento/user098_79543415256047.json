@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user098",
+        "cnpjNumber": 79543415256047,
+        "urlComplementaryList": "https://empresa12.com/companies"
+      },
+      "name": "FUNDO MULTIMERCADO XPTO",
+      "cnpjNumber": "65256064296948",
+      "isinCode": "BRINVFUND012",
+      "admin": {
+        "name": "ADM OPEN FINANCE 12 DTVM S.A.",
+        "cnpjNumber": "48265170906356"
+      },
+      "fundManager": {
+        "name": "GESTOR OPEN FINANCE 12 DTVM S.A.",
+        "cnpjNumber": "12093386599134"
+      },
+      "anbimaCategory": "CAMBIAL",
+      "fees": {
+        "maxAdminFee": "0.011859",
+        "entryFee": "0.010127",
+        "performanceFee": {
+          "method": "PASSIVO",
+          "benchmark": "OUTROS",
+          "benchmarkAdditionalInfo": "string",
+          "amount": "0.055302"
+        },
+        "exitFee": "0.013845"
+      },
+      "generalConditions": {
+        "minimumAmount": {
+          "value": "66078.39",
+          "currency": "BRL"
+        },
+        "redemption": {
+          "quotationDays": 5,
+          "quotationTerm": "DIAS_UTEIS",
+          "paymentDays": 2,
+          "paymentTerm": "DIAS_UTEIS",
+          "graceDays": 60
+        },
+        "application": {
+          "quotationDays": 8,
+          "quotationTerm": "DIAS_UTEIS"
+        },
+        "fundQuotaType": "COTA_FECHAMENTO"
+      },
+      "taxation": "LONGO_PRAZO"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

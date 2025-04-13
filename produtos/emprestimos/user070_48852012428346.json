@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user070",
+        "cnpjNumber": 48852012428346,
+        "urlComplementaryList": "https://empresa21.com/mobile-banking"
+      },
+      "type": "EMPRESTIMO_CREDITO_PESSOAL_SEM_CONSIGNACAO",
+      "fees": {
+        "services": [
+          {
+            "name": "Taxa de Abertura",
+            "code": "NA",
+            "chargingTriggerInfo": "3% do valor do contrato",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "4061.62",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.171642"
+                }
+              },
+              {
+                "interval": "4_FAIXA",
+                "value": "1837.29",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.135817"
+                }
+              },
+              {
+                "interval": "4_FAIXA",
+                "value": "3194.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.154389"
+                }
+              },
+              {
+                "interval": "4_FAIXA",
+                "value": "2519.79",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.100061"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "673.36",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "8742.79",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interestRates": [
+        {
+          "referentialRateIndexer": "PRE_FIXADO",
+          "rate": "0.157800",
+          "applications": [
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.163356"
+              },
+              "customers": {
+                "rate": "0.113848"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.053343"
+              },
+              "customers": {
+                "rate": "0.153071"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.161302"
+              },
+              "customers": {
+                "rate": "0.149726"
+              }
+            },
+            {
+              "interval": "4_FAIXA",
+              "indexer": {
+                "rate": "0.090951"
+              },
+              "customers": {
+                "rate": "0.099818"
+              }
+            }
+          ],
+          "minimumRate": "0.022382",
+          "maximumRate": "0.693764"
+        }
+      ],
+      "requiredWarranties": [
+        "OUTRAS_GARANTIAS_NAO_FIDEJUSSORIAS"
+      ],
+      "termsConditions": "https://empresa21.com/personal_loans"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

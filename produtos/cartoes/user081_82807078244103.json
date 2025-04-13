@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user081",
+        "cnpjNumber": 82807078244103,
+        "urlComplementaryList": "https://empresa81.com/complementarylist"
+      },
+      "name": "Cartão Gold Rewards",
+      "identification": {
+        "product": {
+          "type": "CHEQUE_ELETRONICO",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "VISA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa81.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+            "code": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "1927.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.93"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "120.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "8832.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IGPM",
+            "rate": "0.39",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.7"
+                },
+                "customers": {
+                  "rate": "0.113"
+                }
+              }
+            ],
+            "minimumRate": "0.827",
+            "maximumRate": "0.1777"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IGPM",
+            "rate": "0.137",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.15"
+                },
+                "customers": {
+                  "rate": "0.110"
+                }
+              }
+            ],
+            "minimumRate": "0.069",
+            "maximumRate": "0.197"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.88",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa81.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa81.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

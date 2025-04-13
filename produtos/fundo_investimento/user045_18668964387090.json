@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user045",
+        "cnpjNumber": 18668964387090,
+        "urlComplementaryList": "https://empresa10.com/companies"
+      },
+      "name": "FUNDO ESG SUSTENTÁVEL",
+      "cnpjNumber": "34945584864548",
+      "isinCode": "BRINVFUND010",
+      "admin": {
+        "name": "ADM OPEN FINANCE 10 DTVM S.A.",
+        "cnpjNumber": "12929711914110"
+      },
+      "fundManager": {
+        "name": "GESTOR OPEN FINANCE 10 DTVM S.A.",
+        "cnpjNumber": "19840942470108"
+      },
+      "anbimaCategory": "SUSTENTABILIDADE",
+      "fees": {
+        "maxAdminFee": "0.023500",
+        "entryFee": "0.017451",
+        "performanceFee": {
+          "method": "AJUSTE",
+          "benchmark": "TAXA_SELIC",
+          "benchmarkAdditionalInfo": "string",
+          "amount": "0.069271"
+        },
+        "exitFee": "0.049258"
+      },
+      "generalConditions": {
+        "minimumAmount": {
+          "value": "92389.90",
+          "currency": "BRL"
+        },
+        "redemption": {
+          "quotationDays": 1,
+          "quotationTerm": "DIAS_UTEIS",
+          "paymentDays": 4,
+          "paymentTerm": "DIAS_UTEIS",
+          "graceDays": 90
+        },
+        "application": {
+          "quotationDays": 4,
+          "quotationTerm": "DIAS_UTEIS"
+        },
+        "fundQuotaType": "COTA_ABERTURA"
+      },
+      "taxation": "LONGO_PRAZO"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

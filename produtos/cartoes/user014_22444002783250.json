@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user014",
+        "cnpjNumber": 22444002783250,
+        "urlComplementaryList": "https://empresa14.com/complementarylist"
+      },
+      "name": "Cartão Essencial",
+      "identification": {
+        "product": {
+          "type": "GOLD",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "CHEQUE_ELETRONICO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa14.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "SMS",
+            "code": "SMS",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "1158.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.156"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1198.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "8676.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCA",
+            "rate": "0.134",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.79"
+                },
+                "customers": {
+                  "rate": "0.67"
+                }
+              }
+            ],
+            "minimumRate": "0.1809",
+            "maximumRate": "0.621"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "INDICES_PRECOS_IPCA",
+            "rate": "0.59",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.63"
+                },
+                "customers": {
+                  "rate": "0.169"
+                }
+              }
+            ],
+            "minimumRate": "0.0168",
+            "maximumRate": "0.186"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.109",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa14.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa14.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

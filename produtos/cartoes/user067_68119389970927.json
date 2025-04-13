@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user067",
+        "cnpjNumber": 68119389970927,
+        "urlComplementaryList": "https://empresa67.com/complementarylist"
+      },
+      "name": "Cartão Master Rewards",
+      "identification": {
+        "product": {
+          "type": "CORPORATIVO",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "DINERS_CLUB",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa67.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_EXTERIOR",
+            "code": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_EXTERIOR",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "133.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.158"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1091.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "10859.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.14",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.89"
+                },
+                "customers": {
+                  "rate": "0.26"
+                }
+              }
+            ],
+            "minimumRate": "0.1199",
+            "maximumRate": "0.286"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.96",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.156"
+                },
+                "customers": {
+                  "rate": "0.147"
+                }
+              }
+            ],
+            "minimumRate": "0.049",
+            "maximumRate": "0.181"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "NAO_EXIGE_GARANTIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.135",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa67.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa67.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

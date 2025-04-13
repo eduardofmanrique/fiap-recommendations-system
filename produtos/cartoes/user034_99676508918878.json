@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user034",
+        "cnpjNumber": 99676508918878,
+        "urlComplementaryList": "https://empresa34.com/complementarylist"
+      },
+      "name": "Cartão Gold Rewards",
+      "identification": {
+        "product": {
+          "type": "STANDARD_INTERNACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "CHEQUE_ELETRONICO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa34.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "code": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "48.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.176"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1793.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "8708.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.155",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.11"
+                },
+                "customers": {
+                  "rate": "0.103"
+                }
+              }
+            ],
+            "minimumRate": "0.1208",
+            "maximumRate": "0.847"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.14",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.179"
+                },
+                "customers": {
+                  "rate": "0.126"
+                }
+              }
+            ],
+            "minimumRate": "0.016",
+            "maximumRate": "0.63"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.164",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa34.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa34.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user034",
+        "cnpjNumber": 99676508918878,
+        "urlComplementaryList": "https://empresa5.com/companies"
+      },
+      "name": "FUNDO RENDA FIXA CDI",
+      "cnpjNumber": "20636755473080",
+      "isinCode": "BRINVFUND005",
+      "admin": {
+        "name": "ADM OPEN FINANCE 5 DTVM S.A.",
+        "cnpjNumber": "73836961474589"
+      },
+      "fundManager": {
+        "name": "GESTOR OPEN FINANCE 5 DTVM S.A.",
+        "cnpjNumber": "53774324707728"
+      },
+      "anbimaCategory": "ACOES",
+      "fees": {
+        "maxAdminFee": "0.021305",
+        "entryFee": "0.010834",
+        "performanceFee": {
+          "method": "ATIVO",
+          "benchmark": "IRF_M",
+          "benchmarkAdditionalInfo": "string",
+          "amount": "0.046033"
+        },
+        "exitFee": "0.003002"
+      },
+      "generalConditions": {
+        "minimumAmount": {
+          "value": "56326.82",
+          "currency": "BRL"
+        },
+        "redemption": {
+          "quotationDays": 3,
+          "quotationTerm": "DIAS_UTEIS",
+          "paymentDays": 5,
+          "paymentTerm": "DIAS_UTEIS",
+          "graceDays": 60
+        },
+        "application": {
+          "quotationDays": 7,
+          "quotationTerm": "DIAS_UTEIS"
+        },
+        "fundQuotaType": "COTA_ABERTURA"
+      },
+      "taxation": "CURTO_PRAZO"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

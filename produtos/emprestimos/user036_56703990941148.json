@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user036",
+        "cnpjNumber": 56703990941148,
+        "urlComplementaryList": "https://empresa8.com/mobile-banking"
+      },
+      "type": "EMPRESTIMO_CREDITO_PESSOAL_COM_GARANTIA",
+      "fees": {
+        "services": [
+          {
+            "name": "Taxa de Abertura",
+            "code": "NA",
+            "chargingTriggerInfo": "3% do valor do contrato",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "3730.08",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.064317"
+                }
+              },
+              {
+                "interval": "1_FAIXA",
+                "value": "1768.85",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.058747"
+                }
+              },
+              {
+                "interval": "1_FAIXA",
+                "value": "4040.57",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.119478"
+                }
+              },
+              {
+                "interval": "1_FAIXA",
+                "value": "4388.88",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.214541"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "987.82",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "17006.43",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interestRates": [
+        {
+          "referentialRateIndexer": "FLUTUANTE",
+          "rate": "0.113786",
+          "applications": [
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.057192"
+              },
+              "customers": {
+                "rate": "0.248653"
+              }
+            },
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.140832"
+              },
+              "customers": {
+                "rate": "0.137854"
+              }
+            },
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.194370"
+              },
+              "customers": {
+                "rate": "0.249462"
+              }
+            },
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.140648"
+              },
+              "customers": {
+                "rate": "0.229605"
+              }
+            }
+          ],
+          "minimumRate": "0.010755",
+          "maximumRate": "0.441288"
+        }
+      ],
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": "https://empresa8.com/personal_loans"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

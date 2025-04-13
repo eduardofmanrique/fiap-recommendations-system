@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user080",
+        "cnpjNumber": 95233163856883,
+        "urlComplementaryList": "https://empresa80.com/complementarylist"
+      },
+      "name": "Cartão Universitário",
+      "identification": {
+        "product": {
+          "type": "STANDARD_INTERNACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "AMERICAN_EXPRESS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa80.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "166.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.169"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1870.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "2087.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "SEM_INDEXADOR_TAXA",
+            "rate": "0.104",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.54"
+                },
+                "customers": {
+                  "rate": "0.37"
+                }
+              }
+            ],
+            "minimumRate": "0.774",
+            "maximumRate": "0.1519"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "SEM_INDEXADOR_TAXA",
+            "rate": "0.100",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.183"
+                },
+                "customers": {
+                  "rate": "0.197"
+                }
+              }
+            ],
+            "minimumRate": "0.0148",
+            "maximumRate": "0.181"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.84",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa80.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa80.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

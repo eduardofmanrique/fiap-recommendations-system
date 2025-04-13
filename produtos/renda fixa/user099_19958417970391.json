@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user099",
+        "cnpjNumber": 19958417970391,
+        "urlComplementaryList": "https://empresa2.com/companies"
+      },
+      "issuerInstitutionCnpjNumber": "45199034651390",
+      "issuerInstitutionName": "Organização A2",
+      "investmentType": "LCA",
+      "index": {
+        "indexer": "OUTROS",
+        "indexerAdditionalInfo": "Informações adicionais",
+        "issueRemunerationRate": {
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.175890",
+              "operationRate": "0.438382"
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.017595",
+              "operationRate": "0.120669"
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.240302",
+              "operationRate": "0.306559"
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.161827",
+              "operationRate": "0.497718"
+            }
+          ],
+          "minimum": "0.017595",
+          "maximum": "0.240302"
+        }
+      },
+      "investmentConditions": {
+        "minimumAmount": "8077.74",
+        "redemptionTerm": "DIARIA_PRAZO_CARENCIA",
+        "expirationPeriod": "1_360",
+        "gracePeriod": "1081+"
+      },
+      "targetAudience": "PESSOA_JURIDICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

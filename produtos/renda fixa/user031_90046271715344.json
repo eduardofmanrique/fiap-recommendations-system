@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user031",
+        "cnpjNumber": 90046271715344,
+        "urlComplementaryList": "https://empresa12.com/companies"
+      },
+      "issuerInstitutionCnpjNumber": "51815119773884",
+      "issuerInstitutionName": "Organização A12",
+      "investmentType": "RDB",
+      "index": {
+        "indexer": "SELIC",
+        "indexerAdditionalInfo": "Informações adicionais",
+        "issueRemunerationRate": {
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.228997",
+              "operationRate": "0.260393"
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.238450",
+              "operationRate": "0.104532"
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.111673",
+              "operationRate": "0.354466"
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.046755",
+              "operationRate": "0.170980"
+            }
+          ],
+          "minimum": "0.046755",
+          "maximum": "0.238450"
+        }
+      },
+      "investmentConditions": {
+        "minimumAmount": "773.49",
+        "redemptionTerm": "DIARIA",
+        "expirationPeriod": "1_360",
+        "gracePeriod": "361_1080"
+      },
+      "targetAudience": "PESSOA_JURIDICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

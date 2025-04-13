@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user091",
+        "cnpjNumber": 24212114486766,
+        "urlComplementaryList": "https://empresa91.com/complementarylist"
+      },
+      "name": "Cartão Platinum Plus",
+      "identification": {
+        "product": {
+          "type": "BLUEBOX",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "BANDEIRA_PROPRIA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa91.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "code": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "1643.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.101"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1473.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "3800.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_POS_FIXADAS",
+            "rate": "0.193",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.41"
+                },
+                "customers": {
+                  "rate": "0.169"
+                }
+              }
+            ],
+            "minimumRate": "0.794",
+            "maximumRate": "0.303"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_POS_FIXADAS",
+            "rate": "0.117",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.180"
+                },
+                "customers": {
+                  "rate": "0.142"
+                }
+              }
+            ],
+            "minimumRate": "0.034",
+            "maximumRate": "0.126"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.88",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa91.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa91.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

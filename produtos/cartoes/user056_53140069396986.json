@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user056",
+        "cnpjNumber": 53140069396986,
+        "urlComplementaryList": "https://empresa56.com/complementarylist"
+      },
+      "name": "Cartão Master Rewards",
+      "identification": {
+        "product": {
+          "type": "CHEQUE_ELETRONICO",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "CHEQUE_ELETRONICO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa56.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+            "code": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "372.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.112"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "393.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "4230.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TRFC_POS",
+            "rate": "0.64",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.54"
+                },
+                "customers": {
+                  "rate": "0.122"
+                }
+              }
+            ],
+            "minimumRate": "0.988",
+            "maximumRate": "0.659"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TRFC_POS",
+            "rate": "0.110",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.144"
+                },
+                "customers": {
+                  "rate": "0.113"
+                }
+              }
+            ],
+            "minimumRate": "0.0185",
+            "maximumRate": "0.122"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.32",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa56.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa56.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

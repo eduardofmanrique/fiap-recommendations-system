@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user003",
+        "cnpjNumber": 15170117736341,
+        "urlComplementaryList": "https://empresa3.com/complementarylist"
+      },
+      "name": "Cartão Estudante Conectado",
+      "identification": {
+        "product": {
+          "type": "ELECTRON",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "ELO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa3.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "SMS",
+            "code": "SMS",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "851.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.102"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "896.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "1261.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_FLUTUANTES",
+            "rate": "0.86",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.133"
+                },
+                "customers": {
+                  "rate": "0.89"
+                }
+              }
+            ],
+            "minimumRate": "0.92",
+            "maximumRate": "0.1456"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_FLUTUANTES",
+            "rate": "0.4",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.75"
+                },
+                "customers": {
+                  "rate": "0.140"
+                }
+              }
+            ],
+            "minimumRate": "0.014",
+            "maximumRate": "0.82"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.94",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa3.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa3.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

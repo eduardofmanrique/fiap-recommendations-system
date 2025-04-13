@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user094",
+        "cnpjNumber": 40697739602415,
+        "urlComplementaryList": "https://empresa94.com/complementarylist"
+      },
+      "name": "Cartão Master Rewards",
+      "identification": {
+        "product": {
+          "type": "CHEQUE_ELETRONICO",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "MASTERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa94.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "SMS",
+            "code": "SMS",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "1852.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.82"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1342.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "8746.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_FLUTUANTES",
+            "rate": "0.55",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.178"
+                },
+                "customers": {
+                  "rate": "0.102"
+                }
+              }
+            ],
+            "minimumRate": "0.1140",
+            "maximumRate": "0.1350"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_FLUTUANTES",
+            "rate": "0.132",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.164"
+                },
+                "customers": {
+                  "rate": "0.196"
+                }
+              }
+            ],
+            "minimumRate": "0.039",
+            "maximumRate": "0.105"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.155",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa94.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa94.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

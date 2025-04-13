@@ -1,0 +1,201 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user064",
+        "cnpjNumber": 25677871597948,
+        "urlComplementaryList": "https://empresa7.com/companies"
+      },
+      "investmentType": "FUNDO_INDICES",
+      "custodyFee": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.046432",
+            "operationRate": "0.099321"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.199002",
+            "operationRate": "0.493606"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.020185",
+            "operationRate": "0.317397"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.266083",
+            "operationRate": "0.392316"
+          }
+        ],
+        "minimum": "0.020185",
+        "maximum": "0.266083"
+      },
+      "loadingRate": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.227271",
+            "operationRate": "0.121503"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.195210",
+            "operationRate": "0.401853"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.127292",
+            "operationRate": "0.182975"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.024973",
+            "operationRate": "0.193593"
+          }
+        ],
+        "minimum": "0.024973",
+        "maximum": "0.227271"
+      },
+      "targetAudience": "PESSOA_FISICA"
+    },
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user064",
+        "cnpjNumber": 25677871597948,
+        "urlComplementaryList": "https://empresa7.com/companies"
+      },
+      "investmentType": "ACOES",
+      "custodyFee": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.091596",
+            "operationRate": "0.486979"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.061158",
+            "operationRate": "0.485482"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.207834",
+            "operationRate": "0.369330"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.250703",
+            "operationRate": "0.249886"
+          }
+        ],
+        "minimum": "0.061158",
+        "maximum": "0.250703"
+      },
+      "loadingRate": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.085690",
+            "operationRate": "0.440723"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.152548",
+            "operationRate": "0.345663"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.222989",
+            "operationRate": "0.236132"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.131334",
+            "operationRate": "0.179808"
+          }
+        ],
+        "minimum": "0.085690",
+        "maximum": "0.222989"
+      },
+      "targetAudience": "PESSOA_JURIDICA"
+    },
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user064",
+        "cnpjNumber": 25677871597948,
+        "urlComplementaryList": "https://empresa7.com/companies"
+      },
+      "investmentType": "ACOES",
+      "custodyFee": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.032878",
+            "operationRate": "0.355979"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.240052",
+            "operationRate": "0.101402"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.298766",
+            "operationRate": "0.438728"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.163710",
+            "operationRate": "0.411851"
+          }
+        ],
+        "minimum": "0.032878",
+        "maximum": "0.298766"
+      },
+      "loadingRate": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.235440",
+            "operationRate": "0.379124"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.174573",
+            "operationRate": "0.248639"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.281901",
+            "operationRate": "0.230869"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.269602",
+            "operationRate": "0.337975"
+          }
+        ],
+        "minimum": "0.174573",
+        "maximum": "0.281901"
+      },
+      "targetAudience": "PESSOA_FISICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 3,
+    "totalPages": 1
+  }
+}

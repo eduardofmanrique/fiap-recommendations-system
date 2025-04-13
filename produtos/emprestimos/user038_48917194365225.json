@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user038",
+        "cnpjNumber": 48917194365225,
+        "urlComplementaryList": "https://empresa17.com/mobile-banking"
+      },
+      "type": "EMPRESTIMO_CREDITO_PESSOAL_SEM_CONSIGNACAO",
+      "fees": {
+        "services": [
+          {
+            "name": "Taxa de Abertura",
+            "code": "NA",
+            "chargingTriggerInfo": "3% do valor do contrato",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "2068.61",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.223642"
+                }
+              },
+              {
+                "interval": "2_FAIXA",
+                "value": "4101.66",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.245348"
+                }
+              },
+              {
+                "interval": "2_FAIXA",
+                "value": "4140.36",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.082471"
+                }
+              },
+              {
+                "interval": "2_FAIXA",
+                "value": "837.28",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.063778"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1066.43",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "16232.52",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interestRates": [
+        {
+          "referentialRateIndexer": "SEM_INDEXADOR_TAXA",
+          "rate": "0.061370",
+          "applications": [
+            {
+              "interval": "2_FAIXA",
+              "indexer": {
+                "rate": "0.129164"
+              },
+              "customers": {
+                "rate": "0.069592"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "indexer": {
+                "rate": "0.125778"
+              },
+              "customers": {
+                "rate": "0.235406"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "indexer": {
+                "rate": "0.106500"
+              },
+              "customers": {
+                "rate": "0.195488"
+              }
+            },
+            {
+              "interval": "2_FAIXA",
+              "indexer": {
+                "rate": "0.060761"
+              },
+              "customers": {
+                "rate": "0.156454"
+              }
+            }
+          ],
+          "minimumRate": "0.023225",
+          "maximumRate": "0.685738"
+        }
+      ],
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": "https://empresa17.com/personal_loans"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user030",
+        "cnpjNumber": 42416666394773,
+        "urlComplementaryList": "https://empresa4.com/companies"
+      },
+      "issuerInstitutionCnpjNumber": "48190966955850",
+      "issuerInstitutionName": "Organização A4",
+      "investmentType": "LCA",
+      "index": {
+        "indexer": "DI",
+        "indexerAdditionalInfo": "Informações adicionais",
+        "issueRemunerationRate": {
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.190350",
+              "operationRate": "0.453610"
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.066752",
+              "operationRate": "0.400335"
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.180305",
+              "operationRate": "0.295853"
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.179964",
+              "operationRate": "0.493791"
+            }
+          ],
+          "minimum": "0.066752",
+          "maximum": "0.190350"
+        }
+      },
+      "investmentConditions": {
+        "minimumAmount": "390.81",
+        "redemptionTerm": "DATA_VENCIMENTO",
+        "expirationPeriod": "361_1080",
+        "gracePeriod": "1_360"
+      },
+      "targetAudience": "PESSOA_FISICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

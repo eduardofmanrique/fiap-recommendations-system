@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user011",
+        "cnpjNumber": 98554328005156,
+        "urlComplementaryList": "https://empresa9.com/companies"
+      },
+      "name": "FUNDO INTERNACIONAL TECH",
+      "cnpjNumber": "45117445504594",
+      "isinCode": "BRINVFUND009",
+      "admin": {
+        "name": "ADM OPEN FINANCE 9 DTVM S.A.",
+        "cnpjNumber": "93318151259883"
+      },
+      "fundManager": {
+        "name": "GESTOR OPEN FINANCE 9 DTVM S.A.",
+        "cnpjNumber": "43668462216342"
+      },
+      "anbimaCategory": "CAMBIAL",
+      "fees": {
+        "maxAdminFee": "0.012813",
+        "entryFee": "0.004670",
+        "performanceFee": {
+          "method": "AJUSTE",
+          "benchmark": "CDI",
+          "benchmarkAdditionalInfo": "string",
+          "amount": "0.053847"
+        },
+        "exitFee": "0.011479"
+      },
+      "generalConditions": {
+        "minimumAmount": {
+          "value": "19252.72",
+          "currency": "BRL"
+        },
+        "redemption": {
+          "quotationDays": 1,
+          "quotationTerm": "DIAS_UTEIS",
+          "paymentDays": 4,
+          "paymentTerm": "DIAS_UTEIS",
+          "graceDays": 365
+        },
+        "application": {
+          "quotationDays": 4,
+          "quotationTerm": "DIAS_UTEIS"
+        },
+        "fundQuotaType": "COTA_FECHAMENTO"
+      },
+      "taxation": "CURTO_PRAZO"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

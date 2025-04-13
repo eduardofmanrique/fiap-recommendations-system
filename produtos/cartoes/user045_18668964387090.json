@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user045",
+        "cnpjNumber": 18668964387090,
+        "urlComplementaryList": "https://empresa45.com/complementarylist"
+      },
+      "name": "Cartão Gold Rewards",
+      "identification": {
+        "product": {
+          "type": "STANDARD_INTERNACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "AMERICAN_EXPRESS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa45.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_NACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_NACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "891.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.73"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1297.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "5620.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.17",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.143"
+                },
+                "customers": {
+                  "rate": "0.116"
+                }
+              }
+            ],
+            "minimumRate": "0.1712",
+            "maximumRate": "0.515"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.85",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.15"
+                },
+                "customers": {
+                  "rate": "0.6"
+                }
+              }
+            ],
+            "minimumRate": "0.078",
+            "maximumRate": "0.97"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.28",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa45.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa45.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

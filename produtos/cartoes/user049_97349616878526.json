@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user049",
+        "cnpjNumber": 97349616878526,
+        "urlComplementaryList": "https://empresa49.com/complementarylist"
+      },
+      "name": "Cartão Essencial",
+      "identification": {
+        "product": {
+          "type": "CLASSIC_NACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "DINERS_CLUB",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa49.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+            "code": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "36.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.24"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1465.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "5830.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_FLUTUANTES",
+            "rate": "0.148",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.32"
+                },
+                "customers": {
+                  "rate": "0.17"
+                }
+              }
+            ],
+            "minimumRate": "0.1598",
+            "maximumRate": "0.268"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTRAS_TAXAS_FLUTUANTES",
+            "rate": "0.6",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.127"
+                },
+                "customers": {
+                  "rate": "0.34"
+                }
+              }
+            ],
+            "minimumRate": "0.068",
+            "maximumRate": "0.41"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.19",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa49.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa49.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

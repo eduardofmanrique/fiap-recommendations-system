@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user021",
+        "cnpjNumber": 18298236049139,
+        "urlComplementaryList": "https://empresa21.com/complementarylist"
+      },
+      "name": "Cartão Essencial",
+      "identification": {
+        "product": {
+          "type": "CLASSIC_NACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "MASTERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa21.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "code": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "194.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.154"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "488.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "2983.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TRFC_POS",
+            "rate": "0.137",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.175"
+                },
+                "customers": {
+                  "rate": "0.100"
+                }
+              }
+            ],
+            "minimumRate": "0.1082",
+            "maximumRate": "0.1678"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "CREDITO_RURAL_TRFC_POS",
+            "rate": "0.61",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.192"
+                },
+                "customers": {
+                  "rate": "0.179"
+                }
+              }
+            ],
+            "minimumRate": "0.0183",
+            "maximumRate": "0.103"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.130",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa21.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa21.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

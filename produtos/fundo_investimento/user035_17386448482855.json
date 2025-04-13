@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user035",
+        "cnpjNumber": 17386448482855,
+        "urlComplementaryList": "https://empresa13.com/companies"
+      },
+      "name": "FUNDO INTERNACIONAL TECH",
+      "cnpjNumber": "93902076382670",
+      "isinCode": "BRINVFUND013",
+      "admin": {
+        "name": "ADM OPEN FINANCE 13 DTVM S.A.",
+        "cnpjNumber": "31821462141623"
+      },
+      "fundManager": {
+        "name": "GESTOR OPEN FINANCE 13 DTVM S.A.",
+        "cnpjNumber": "95471048477879"
+      },
+      "anbimaCategory": "SUSTENTABILIDADE",
+      "fees": {
+        "maxAdminFee": "0.021888",
+        "entryFee": "0.012713",
+        "performanceFee": {
+          "method": "PASSIVO",
+          "benchmark": "IBRX_50",
+          "benchmarkAdditionalInfo": "string",
+          "amount": "0.098946"
+        },
+        "exitFee": "0.036116"
+      },
+      "generalConditions": {
+        "minimumAmount": {
+          "value": "11880.89",
+          "currency": "BRL"
+        },
+        "redemption": {
+          "quotationDays": 5,
+          "quotationTerm": "DIAS_CORRIDOS",
+          "paymentDays": 3,
+          "paymentTerm": "DIAS_CORRIDOS",
+          "graceDays": 365
+        },
+        "application": {
+          "quotationDays": 1,
+          "quotationTerm": "DIAS_CORRIDOS"
+        },
+        "fundQuotaType": "COTA_ABERTURA"
+      },
+      "taxation": "CURTO_PRAZO"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

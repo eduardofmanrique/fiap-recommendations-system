@@ -1,0 +1,63 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user034",
+        "cnpjNumber": 99676508918878,
+        "urlComplementaryList": "https://empresa9.com/companies"
+      },
+      "issuerInstitutionCnpjNumber": "34999515764742",
+      "issuerInstitutionName": "Organização A9",
+      "investmentType": "LCA",
+      "index": {
+        "indexer": "IGP_M",
+        "indexerAdditionalInfo": "Informações adicionais",
+        "issueRemunerationRate": {
+          "prices": [
+            {
+              "interval": "1_FAIXA",
+              "value": "0.078762",
+              "operationRate": "0.299485"
+            },
+            {
+              "interval": "2_FAIXA",
+              "value": "0.177474",
+              "operationRate": "0.407685"
+            },
+            {
+              "interval": "3_FAIXA",
+              "value": "0.032827",
+              "operationRate": "0.050009"
+            },
+            {
+              "interval": "4_FAIXA",
+              "value": "0.062747",
+              "operationRate": "0.312145"
+            }
+          ],
+          "minimum": "0.032827",
+          "maximum": "0.177474"
+        }
+      },
+      "investmentConditions": {
+        "minimumAmount": "7904.28",
+        "redemptionTerm": "DIARIA",
+        "expirationPeriod": "1_360",
+        "gracePeriod": "1_360"
+      },
+      "targetAudience": "PESSOA_FISICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

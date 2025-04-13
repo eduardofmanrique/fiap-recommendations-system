@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user086",
+        "cnpjNumber": 13416476376349,
+        "urlComplementaryList": "https://empresa86.com/complementarylist"
+      },
+      "name": "Cartão Essencial",
+      "identification": {
+        "product": {
+          "type": "CORPORATIVO",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "HIPERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa86.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+            "code": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "509.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.83"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1138.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "5315.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.172",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.61"
+                },
+                "customers": {
+                  "rate": "0.69"
+                }
+              }
+            ],
+            "minimumRate": "0.1220",
+            "maximumRate": "0.314"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.166",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.194"
+                },
+                "customers": {
+                  "rate": "0.17"
+                }
+              }
+            ],
+            "minimumRate": "0.0137",
+            "maximumRate": "0.73"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "NAO_EXIGE_GARANTIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.59",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa86.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa86.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

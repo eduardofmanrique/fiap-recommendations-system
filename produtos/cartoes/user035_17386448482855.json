@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user035",
+        "cnpjNumber": 17386448482855,
+        "urlComplementaryList": "https://empresa35.com/complementarylist"
+      },
+      "name": "Cartão Gold Rewards",
+      "identification": {
+        "product": {
+          "type": "STANDARD_NACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "ELO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa35.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_NACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_NACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "1839.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.72"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "39.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "9277.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDICES_PRECO",
+            "rate": "0.150",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.6"
+                },
+                "customers": {
+                  "rate": "0.116"
+                }
+              }
+            ],
+            "minimumRate": "0.13",
+            "maximumRate": "0.1016"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDICES_PRECO",
+            "rate": "0.1",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.140"
+                },
+                "customers": {
+                  "rate": "0.28"
+                }
+              }
+            ],
+            "minimumRate": "0.079",
+            "maximumRate": "0.162"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "GARANTIA_FIDEJUSSORIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.26",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa35.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa35.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

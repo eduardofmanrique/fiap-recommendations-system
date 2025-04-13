@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user017",
+        "cnpjNumber": 12946611856133,
+        "urlComplementaryList": "https://empresa17.com/complementarylist"
+      },
+      "name": "Cartão Master Rewards",
+      "identification": {
+        "product": {
+          "type": "PLATINUM",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "OUTRAS",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa17.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "code": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "520.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.84"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "352.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "6334.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "PRE_FIXADO",
+            "rate": "0.42",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.74"
+                },
+                "customers": {
+                  "rate": "0.85"
+                }
+              }
+            ],
+            "minimumRate": "0.787",
+            "maximumRate": "0.1642"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "PRE_FIXADO",
+            "rate": "0.135",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.28"
+                },
+                "customers": {
+                  "rate": "0.141"
+                }
+              }
+            ],
+            "minimumRate": "0.097",
+            "maximumRate": "0.85"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "NAO_EXIGE_GARANTIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.20",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa17.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa17.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

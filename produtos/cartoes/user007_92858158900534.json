@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user007",
+        "cnpjNumber": 92858158900534,
+        "urlComplementaryList": "https://empresa7.com/complementarylist"
+      },
+      "name": "Cartão Master Rewards",
+      "identification": {
+        "product": {
+          "type": "MAESTRO_MASTERCARD_MAESTRO",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "ELO",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa7.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "code": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "4_FAIXA",
+                "value": "1959.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.22"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "463.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "1186.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.93",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.197"
+                },
+                "customers": {
+                  "rate": "0.80"
+                }
+              }
+            ],
+            "minimumRate": "0.1052",
+            "maximumRate": "0.83"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "OUTROS_INDEXADORES",
+            "rate": "0.89",
+            "applications": [
+              {
+                "interval": "4_FAIXA",
+                "indexer": {
+                  "rate": "0.71"
+                },
+                "customers": {
+                  "rate": "0.64"
+                }
+              }
+            ],
+            "minimumRate": "0.0179",
+            "maximumRate": "0.186"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "NAO_EXIGE_GARANTIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.192",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa7.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa7.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

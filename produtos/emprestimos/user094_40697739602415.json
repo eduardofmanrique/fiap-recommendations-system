@@ -1,0 +1,125 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "user094",
+        "cnpjNumber": 40697739602415,
+        "urlComplementaryList": "https://empresa22.com/mobile-banking"
+      },
+      "type": "EMPRESTIMO_CREDITO_PESSOAL_COM_GARANTIA",
+      "fees": {
+        "services": [
+          {
+            "name": "Taxa de Abertura",
+            "code": "NA",
+            "chargingTriggerInfo": "3% do valor do contrato",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "3671.56",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.129288"
+                }
+              },
+              {
+                "interval": "1_FAIXA",
+                "value": "2088.53",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.078339"
+                }
+              },
+              {
+                "interval": "1_FAIXA",
+                "value": "2740.74",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.221971"
+                }
+              },
+              {
+                "interval": "1_FAIXA",
+                "value": "1242.09",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.060914"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "435.16",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "16789.59",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interestRates": [
+        {
+          "referentialRateIndexer": "POS_FIXADO",
+          "rate": "0.086502",
+          "applications": [
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.097536"
+              },
+              "customers": {
+                "rate": "0.096342"
+              }
+            },
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.104791"
+              },
+              "customers": {
+                "rate": "0.191709"
+              }
+            },
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.115281"
+              },
+              "customers": {
+                "rate": "0.202650"
+              }
+            },
+            {
+              "interval": "1_FAIXA",
+              "indexer": {
+                "rate": "0.179599"
+              },
+              "customers": {
+                "rate": "0.055052"
+              }
+            }
+          ],
+          "minimumRate": "0.015322",
+          "maximumRate": "0.379118"
+        }
+      ],
+      "requiredWarranties": [
+        "NAO_EXIGE_GARANTIA"
+      ],
+      "termsConditions": "https://empresa22.com/personal_loans"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-loans/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

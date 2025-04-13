@@ -1,0 +1,77 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user077",
+        "cnpjNumber": 82144771740283,
+        "urlComplementaryList": "https://empresa3.com/companies"
+      },
+      "investmentType": "FUNDO_INDICES",
+      "custodyFee": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.059794",
+            "operationRate": "0.426832"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.115585",
+            "operationRate": "0.237555"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.034949",
+            "operationRate": "0.426225"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.124095",
+            "operationRate": "0.291329"
+          }
+        ],
+        "minimum": "0.034949",
+        "maximum": "0.124095"
+      },
+      "loadingRate": {
+        "prices": [
+          {
+            "interval": "1_FAIXA",
+            "value": "0.190176",
+            "operationRate": "0.215379"
+          },
+          {
+            "interval": "2_FAIXA",
+            "value": "0.197424",
+            "operationRate": "0.459629"
+          },
+          {
+            "interval": "3_FAIXA",
+            "value": "0.028555",
+            "operationRate": "0.261126"
+          },
+          {
+            "interval": "4_FAIXA",
+            "value": "0.146460",
+            "operationRate": "0.236090"
+          }
+        ],
+        "minimum": "0.028555",
+        "maximum": "0.197424"
+      },
+      "targetAudience": "PESSOA_JURIDICA"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

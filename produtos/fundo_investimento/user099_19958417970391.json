@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização",
+        "name": "user099",
+        "cnpjNumber": 19958417970391,
+        "urlComplementaryList": "https://empresa4.com/companies"
+      },
+      "name": "FUNDO AÇÕES BRASIL",
+      "cnpjNumber": "20440722037720",
+      "isinCode": "BRINVFUND004",
+      "admin": {
+        "name": "ADM OPEN FINANCE 4 DTVM S.A.",
+        "cnpjNumber": "97996891307640"
+      },
+      "fundManager": {
+        "name": "GESTOR OPEN FINANCE 4 DTVM S.A.",
+        "cnpjNumber": "32800635284957"
+      },
+      "anbimaCategory": "MULTIMERCADO",
+      "fees": {
+        "maxAdminFee": "0.013931",
+        "entryFee": "0.006266",
+        "performanceFee": {
+          "method": "ATIVO",
+          "benchmark": "TAXA_SELIC",
+          "benchmarkAdditionalInfo": "string",
+          "amount": "0.087911"
+        },
+        "exitFee": "0.001228"
+      },
+      "generalConditions": {
+        "minimumAmount": {
+          "value": "76388.11",
+          "currency": "BRL"
+        },
+        "redemption": {
+          "quotationDays": 5,
+          "quotationTerm": "DIAS_CORRIDOS",
+          "paymentDays": 2,
+          "paymentTerm": "DIAS_CORRIDOS",
+          "graceDays": 365
+        },
+        "application": {
+          "quotationDays": 3,
+          "quotationTerm": "DIAS_CORRIDOS"
+        },
+        "fundQuotaType": "COTA_FECHAMENTO"
+      },
+      "taxation": "LONGO_PRAZO"
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/api/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/api/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}
