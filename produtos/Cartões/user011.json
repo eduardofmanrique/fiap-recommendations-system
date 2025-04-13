@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "Cliente_11",
+        "cnpjNumber": "39951710960882",
+        "urlComplementaryList": "https://empresa11.com/complementarylist"
+      },
+      "name": "Cartão Gold Rewards",
+      "identification": {
+        "product": {
+          "type": "CHEQUE_ELETRONICO",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "VISA",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa11.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "code": "AVALIACAO_EMERGENCIAL_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "3_FAIXA",
+                "value": "1666.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.88"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1553.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "6736.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "PRE_FIXADO",
+            "rate": "0.178",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.140"
+                },
+                "customers": {
+                  "rate": "0.45"
+                }
+              }
+            ],
+            "minimumRate": "0.1518",
+            "maximumRate": "0.768"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "PRE_FIXADO",
+            "rate": "0.133",
+            "applications": [
+              {
+                "interval": "3_FAIXA",
+                "indexer": {
+                  "rate": "0.172"
+                },
+                "customers": {
+                  "rate": "0.98"
+                }
+              }
+            ],
+            "minimumRate": "0.0128",
+            "maximumRate": "0.13"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "SAQUE_A_CREDITO",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "CESSAO_DIREITOS_CREDITORIOS"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.7",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa11.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa11.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "Cliente_74",
+        "cnpjNumber": "54259414693481",
+        "urlComplementaryList": "https://empresa74.com/complementarylist"
+      },
+      "name": "Cartão Platinum Plus",
+      "identification": {
+        "product": {
+          "type": "CLASSIC_NACIONAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "DINERS_CLUB",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": false,
+        "rewardProgramInfo": "https://empresa74.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "code": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "2_FAIXA",
+                "value": "1181.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.68"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1661.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "10777.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "PRE_FIXADO",
+            "rate": "0.4",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.58"
+                },
+                "customers": {
+                  "rate": "0.13"
+                }
+              }
+            ],
+            "minimumRate": "0.257",
+            "maximumRate": "0.1130"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "PRE_FIXADO",
+            "rate": "0.167",
+            "applications": [
+              {
+                "interval": "2_FAIXA",
+                "indexer": {
+                  "rate": "0.108"
+                },
+                "customers": {
+                  "rate": "0.156"
+                }
+              }
+            ],
+            "minimumRate": "0.0151",
+            "maximumRate": "0.13"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "PAGAMENTOS_CONTAS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.172",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa74.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa74.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}

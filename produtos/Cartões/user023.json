@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "participant": {
+        "brand": "Organização A",
+        "name": "Cliente_23",
+        "cnpjNumber": "75898315130283",
+        "urlComplementaryList": "https://empresa23.com/complementarylist"
+      },
+      "name": "Cartão Cashback Turbo",
+      "identification": {
+        "product": {
+          "type": "PROFISSIONAL_LIBERAL",
+          "typeAdditionalInfo": "Informações adicionais"
+        },
+        "creditCard": {
+          "network": "HIPERCARD",
+          "networkAdditionalInfo": "Informações adicionais"
+        }
+      },
+      "rewardsProgram": {
+        "hasRewardProgram": true,
+        "rewardProgramInfo": "https://empresa23.com/rewards"
+      },
+      "fees": {
+        "services": [
+          {
+            "name": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "code": "ANUIDADE_CARTAO_BASICO_INTERNACIONAL",
+            "chargingTriggerInfo": "Cobrança anual parcelada",
+            "prices": [
+              {
+                "interval": "1_FAIXA",
+                "value": "801.00",
+                "currency": "BRL",
+                "customers": {
+                  "rate": "0.54"
+                }
+              }
+            ],
+            "minimum": {
+              "value": "1636.00",
+              "currency": "BRL"
+            },
+            "maximum": {
+              "value": "10615.00",
+              "currency": "BRL"
+            }
+          }
+        ]
+      },
+      "interest": {
+        "rates": [
+          {
+            "referentialRateIndexer": "SEM_INDEXADOR_TAXA",
+            "rate": "0.44",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.184"
+                },
+                "customers": {
+                  "rate": "0.9"
+                }
+              }
+            ],
+            "minimumRate": "0.325",
+            "maximumRate": "0.8"
+          }
+        ],
+        "instalmentRates": [
+          {
+            "referentialRateIndexer": "SEM_INDEXADOR_TAXA",
+            "rate": "0.173",
+            "applications": [
+              {
+                "interval": "1_FAIXA",
+                "indexer": {
+                  "rate": "0.164"
+                },
+                "customers": {
+                  "rate": "0.101"
+                }
+              }
+            ],
+            "minimumRate": "0.0126",
+            "maximumRate": "0.86"
+          }
+        ],
+        "otherCredits": [
+          {
+            "code": "OUTROS",
+            "codeAdditionalInfo": "Informações adicionais"
+          }
+        ]
+      },
+      "requiredWarranties": [
+        "ALIENACAO_FIDUCIARIA"
+      ],
+      "termsConditions": {
+        "minimumFeeRate": "0.152",
+        "additionalInfo": "NA",
+        "elegibilityCriteriaInfo": "https://empresa23.com/creditcards_elegibility_criteria",
+        "closingProcessInfo": "https://empresa23.com/creditcards_closing_process"
+      }
+    }
+  ],
+  "links": {
+    "self": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "first": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "prev": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "next": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource",
+    "last": "https://api.banco.com.br/open-banking/opendata-creditcards/v1/resource"
+  },
+  "meta": {
+    "totalRecords": 1,
+    "totalPages": 1
+  }
+}
